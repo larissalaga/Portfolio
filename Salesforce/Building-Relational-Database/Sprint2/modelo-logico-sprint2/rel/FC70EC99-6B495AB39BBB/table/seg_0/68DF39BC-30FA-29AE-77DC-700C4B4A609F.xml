@@ -1,0 +1,236 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68DF39BC-30FA-29AE-77DC-700C4B4A609F" name="T_SGDD_ENDERECO">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>B8687DF0-4E49-EDF1-18FC-0F3BE83068F1</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_cep_codigo_postal" id="FAC1D2B4-8469-D60B-3D74-BE0865AC0360">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>51850868-21E6-88E3-14D4-187B5EF6836E</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_pais" id="5774C6E9-E74F-F96D-9039-FC88B55B074B">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>3CD776A4-76DD-CE4E-CFFE-821DF15730BD</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uf_estado_provincia" id="296651B7-4490-357D-591C-CD5ADA7D4184">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Rondônia-RO
+Acre-AC
+Amazonas-AM
+Roraima	-RR
+Pará-PA
+Amapá-AP
+Tocantins-TO
+Maranhão-MA
+Piauí-PI
+Ceará-CE
+Rio Grande do Norte-RN
+Paraíba-PB
+Pernambuco-PE
+Alagoas-AL
+Sergipe-SE
+Bahia-BA
+Minas Gerais-MG
+Espírito Santo-ES
+Rio de Janeiro-RJ
+São Paulo-SP
+Paraná-PR
+Santa Catarina-SC
+Rio Grande do Sul-RS
+Mato Grosso do Sul-MS
+Mato Grosso-MT
+Goiás-GO
+Distrito Federal-DF
+]]></commentInRDBMS>
+<generatorID>D03E1F75-B420-7836-3931-FB9859557871</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="35DED6B5-5388-E93E-0C74-E185EB1F2F28">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>5A644A52-8E2F-95F1-053D-F247E317923A</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_logradouro" id="74BC0427-46B1-C454-CD19-7A874FB09E3A">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>0DFE11D7-6535-CF0F-41CA-85A419618581</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_predio_casa" id="CC500A40-ED82-32E7-D651-C1BEF1370D0E">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>E5D3AE49-29E0-B293-1BCE-505035FC0B68</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGDD_CLIENTE_cod_cliente" id="9492B936-DFCB-C343-249E-C7035ED1F94D">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>D7F76407-E2C1-84D5-BD97-74948072533F</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A2D0B12-7BF4-F265-19B8-F39280921018" referredColumn="77085DE7-9D40-2702-506E-1992DEFFBCA2"/>
+</associations>
+</Column>
+<Column name="T_SGDD_CLIENTE_PJ_cnpj_cliente" id="527FC183-757E-AA04-65D4-7653E3BFF2CF">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-17 19:24:24 UTC</createdTime>
+<generatorID>A2E27140-A511-5DF5-7B90-4A9C4E83B558</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17 CHAR</dataTypeSize>
+<ownDataTypeParameters>17 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98B5E356-23BE-2368-3A9B-04E4EAA03507" referredColumn="27A8A344-1B37-D9BB-7417-6A208965F6EA"/>
+</associations>
+</Column>
+<Column name="T_SGDD_CLIENTE_PF_cpf_cliente" id="274C048C-A144-F90A-0932-7A8294EFEF22">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-17 19:24:24 UTC</createdTime>
+<generatorID>5CC5AB65-A388-D848-3A75-BCE1CA96BF97</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D150E694-78C3-BAC1-B3D4-68FE85BF57A1" referredColumn="BF1D2C3E-A4BD-0363-F324-A805164303D6"/>
+</associations>
+</Column>
+<Column name="T_SGDD_CLIENTE_cod_cliente1" id="771B25B6-A7C1-17A6-15C2-C83AF5892A6E">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-17 19:29:55 UTC</createdTime>
+<generatorID>FCDE665C-D7E4-6EC5-16D0-7DDD537391E2</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70170761-0BF5-2F43-582E-23D9B53040E5" referredColumn="77085DE7-9D40-2702-506E-1992DEFFBCA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E3C76EC-2416-D6F6-EFB1-FD059CAF3B99" name="T_SGDD_ENDERECO_PK">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>DFDC5377-61BF-994F-0F64-9DF0AAFA7772</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAC1D2B4-8469-D60B-3D74-BE0865AC0360"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1B4B55D-876A-5FB8-6747-29EDE7F646C0" name="T_SGDD_ENDERECO_T_SGDD_CLIENTE_FK">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>629F404B-C009-4B3C-826E-A64434308647</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9492B936-DFCB-C343-249E-C7035ED1F94D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="488E27EF-BDCA-187B-F7EA-77F61F142553" name="T_SGDD_ENDERECO_T_SGDD_CLIENTE_PJ_FK">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-17 19:24:24 UTC</createdTime>
+<generatorID>AA8DA68E-F186-F6F9-3457-88169DCDDF40</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="527FC183-757E-AA04-65D4-7653E3BFF2CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37CAC210-E18B-E266-1FC1-434E73E728E7" name="T_SGDD_ENDERECO_T_SGDD_CLIENTE_PF_FK">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-17 19:24:24 UTC</createdTime>
+<generatorID>32AF16D7-1343-6498-E872-3CEB08F40A2D</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="274C048C-A144-F90A-0932-7A8294EFEF22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6EF8C27-62EF-2E87-342F-DC6F6D0B521C" name="T_SGDD_ENDERECO_T_SGDD_CLIENTE_FKv2">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-17 19:29:55 UTC</createdTime>
+<generatorID>C6D7B015-8EA7-99B4-F999-B44A4F21F2A6</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="771B25B6-A7C1-17A6-15C2-C83AF5892A6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

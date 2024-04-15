@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  padding: 20px;
+}
+
+/*Inicio do header*/
+header {
+  background-color: #032d60ff;
+  color: #032d60ff;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.menu_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+header img {
+  height: 60px;
+  margin-left: 20px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li {
+  font-size: 18px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.lingua_contraste {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: auto;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.botoes {
+  min-width: 70px;
+  width: auto;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: none;
+}
+.botoes a {
+  text-decoration: none;
+  color: #032d60ff;
+}
+
+/*Inicio main*/
+main {
+  background-color: rgb(228, 226, 226);
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.introducao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.introducao article {
+  display: flex;
+  flex-direction: column;
+}
+
+.introducao img {
+  width: 50%;
+  height: 50%;
+  max-width: 300px;
+}
+
+.explicacao {
+  margin-top: 30px;
+}
+
+.paragrafo_main {
+  height: 100%;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+/*Inicio do footer*/
+footer {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+}
+
+.redes_sociais {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.redes_sociais a {
+  margin: 0 10px;
+}
+
+.redes_sociais img {
+  width: 30px;
+  height: auto;
+}
+
+.footer_central {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.mapa_site {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 5px;
+}
+
+.mapa_site h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: rgb(55, 55, 55);
+}
+
+.mapa_site ul {
+  list-style: none;
+}
+
+.mapa_site li {
+  margin-bottom: 5px;
+}
+
+.mapa_site a {
+  text-decoration: none;
+  color: #032d60ff;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  color: #032d60ff;
+  gap: 5px;
+}
+
+.contato h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: rgb(55, 55, 55);
+}
+
+.copyright {
+  clear: both;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: rgb(55, 55, 55);
+}
+
+/*Botao chatbot*/
+.botao_chatbot {
+  background-color: rgba(1, 118, 211, 1);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: fixed;
+  right: 40px;
+  bottom: 20px;
+}
+
+.botao_chatbot a {
+  color: white;
+  text-decoration: none;
+}

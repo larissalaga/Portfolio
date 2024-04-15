@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7961C7C9-A203-6980-9D15-3C28AB089BE6" containerWithKeyObject="A4B8214F-A03E-F9E5-E4AD-62F449B4BC66" localFKIndex="654AF6F6-9321-DAC3-0991-498B13B60462" name="Relation_11_T_SGDD_FUNC_SALESFORCE_FK">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>FAFB67AB-03AD-CC33-D05B-5BB3639A1ABB</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<referredTableLongName>T_SGDD_FUNC_SALESFORCE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74B6869A-8A8F-D5D0-FF30-B7CB3B63D726</referredTableID>
+<keyObject>6BA04AA3-6ACC-7D29-8301-E6E5E38E2604</keyObject>
+<referredKeyID>6BA04AA3-6ACC-7D29-8301-E6E5E38E2604</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_funcionario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

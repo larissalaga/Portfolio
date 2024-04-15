@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28685F71-1CF3-8900-D102-EE760D394809" name="T_SGDD_CLIENTE_PJ">
+<createdBy>lalop</createdBy>
+<createdTime>2023-10-15 00:54:17 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_razao_social" id="C625919C-C591-9CC8-5222-21CE9CB52156">
+<createdBy>lalop</createdBy>
+<createdTime>2023-10-15 00:54:27 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj_cliente" id="37519A5E-CB1C-88A2-5019-7F190E978CD9">
+<createdBy>lalop</createdBy>
+<createdTime>2023-10-15 00:56:16 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17 CHAR</dataTypeSize>
+<ownDataTypeParameters>17 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_funcionario_empresa" id="1CDEBA6F-CB7D-2107-3248-2012E18FF621">
+<createdBy>lalop</createdBy>
+<createdTime>2023-10-15 00:57:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[1-50 funcionários
+51-300 funcionários
+301-1,000 funcionários
+1,001-2,000 funcionários
++2,000 funcionários
+]]></commentInRDBMS>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>23</dataTypeSize>
+<ownDataTypeParameters>23,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ind_setor_responsavel" id="B2085B45-AB3E-A584-3602-F78FDEADDB51">
+<createdBy>lalop</createdBy>
+<createdTime>2023-10-15 01:04:04 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cliente" id="6514CE44-412E-213A-F8AD-1E9974F13098">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:13:07 UTC</createdTime>
+<generatorID>C7BDBCA6-8D60-F8CC-5BA2-107BEEEEB7AB</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<referedAttribute>9844CCAD-B81B-4381-A9EC-24D5A0F2F43A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D1A4079-18A1-7DC9-CE18-5571C740D50B" name="T_SGDD_CLIENTE_PJ PK">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 20:00:39 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37519A5E-CB1C-88A2-5019-7F190E978CD9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

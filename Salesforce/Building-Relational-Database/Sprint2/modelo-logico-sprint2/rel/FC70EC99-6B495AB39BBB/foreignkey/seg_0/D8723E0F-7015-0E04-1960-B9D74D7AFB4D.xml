@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D8723E0F-7015-0E04-1960-B9D74D7AFB4D" containerWithKeyObject="B447A951-5989-5828-B841-8CF74F43A076" localFKIndex="D547A648-2CB8-EA23-23A6-25A426229B0D" name="T_SGDD_PEDIDO_T_SGDD_CLIENTE_PF_FK">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>020D386B-D611-71F4-A7DC-2963C932F3E6</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<referredTableLongName>T_SGDD_CLIENTE_PF</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1812FC56-CF17-18AC-267D-7F830E50FBAD</referredTableID>
+<keyObject>A7B28A49-79B3-FB28-B400-5E67B6298896</keyObject>
+<referredKeyID>A7B28A49-79B3-FB28-B400-5E67B6298896</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cpf_cliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1812FC56-CF17-18AC-267D-7F830E50FBAD" name="T_SGDD_CLIENTE_PF">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>62AA8C35-6C75-1443-AFBF-D6EF837FC6C9</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ind_profissao" id="34262197-2D0F-7064-D485-77A99D495553">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>42A2FE9E-A62D-A3C6-8EA3-C1647BD59DF1</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ind_escolaridade" id="A58F5B41-65DF-6960-C74E-F95B65AD6E02">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[AN-analfabeto
+EFC- Ensino Fundamental Completo
+EFI- Ensino Fundamental Incompleto
+EMC - Ensino Médio Completo
+EMI - Ensino Médico Incompleto
+ET - Ensino Técnico
+ESC- Ensino Superior Completo
+ESI- Ensino Superior Incompleto
+PGC- Pós Graduação Completo
+PGI- Pós Graduação Incompleto
+]]></commentInRDBMS>
+<generatorID>CDB5DE98-92FF-92F1-3F2F-1BCCD06DEF44</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_cliente" id="BF1D2C3E-A4BD-0363-F324-A805164303D6">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>A5B0412D-4663-BD23-2792-2F50F6CB8DD4</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ind_dt_nasccimento" id="BA849A43-D470-0B2F-6D1C-ECA420421CC5">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>A822A287-03A2-F675-CD94-15E04FB05DF4</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ind_sexo" id="2AB6541A-CC30-8627-9AC8-B8349C64EAF4">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[F-Femnino
+M-Masculino
+NA-Não informado]]></commentInRDBMS>
+<generatorID>EFDC45A7-5813-CF22-B27A-1A6CAC70214A</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGDD_CLIENTE_cod_cliente" id="88AF3CF0-1EEA-CFE4-C1C0-CFA96553B4EA">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>84FA3342-9087-C7CD-16B1-18612FA7592C</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E3B5515-F343-32DC-F25F-E39C66EF6E99" referredColumn="77085DE7-9D40-2702-506E-1992DEFFBCA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7B28A49-79B3-FB28-B400-5E67B6298896" name="T_SGDD_CLIENTE_PF_PK">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>17822DA9-5D8B-CDEB-0B84-1AA022300DDE</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF1D2C3E-A4BD-0363-F324-A805164303D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D8A89FC-EA39-3504-D092-A7A65A619DBB" name="T_SGDD_CLIENTE_PF_T_SGDD_CLIENTE_FK">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>47816837-9328-D0E6-9C0B-A0D0372F8448</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88AF3CF0-1EEA-CFE4-C1C0-CFA96553B4EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

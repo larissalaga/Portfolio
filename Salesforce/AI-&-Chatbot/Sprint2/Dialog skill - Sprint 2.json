@@ -1,0 +1,995 @@
+{
+  "intents": [
+    {
+      "intent": "Acessibilidade",
+      "examples": [
+        {
+          "text": "Acessibilidade"
+        },
+        {
+          "text": "Acessibilidade no portal"
+        },
+        {
+          "text": "Acessibilidade no site"
+        },
+        {
+          "text": "Deficiência"
+        },
+        {
+          "text": "Deficiente"
+        },
+        {
+          "text": "Opções de acessibilidade"
+        },
+        {
+          "text": "Plug-in"
+        },
+        {
+          "text": "Plugin"
+        },
+        {
+          "text": "Plug-ins"
+        },
+        {
+          "text": "Plugins"
+        },
+        {
+          "text": "Recursos de acessibilidade"
+        },
+        {
+          "text": "Recursos do site"
+        },
+        {
+          "text": "Site"
+        }
+      ],
+      "description": "Intenção para explicar sobre a acessibilidade no site"
+    },
+    {
+      "intent": "Contato",
+      "examples": [
+        {
+          "text": "Entrar em contato"
+        },
+        {
+          "text": "Entrar em contato com a Salesforce"
+        },
+        {
+          "text": "Entrem em contato"
+        },
+        {
+          "text": "Entrem em contato comigo"
+        },
+        {
+          "text": "Formas de contato"
+        },
+        {
+          "text": "Formulário de contato"
+        },
+        {
+          "text": "Gostaria de entrar em contato"
+        },
+        {
+          "text": "Gostaria de fazer um orçamento"
+        },
+        {
+          "text": "Gostaria que entrassem em contato comigo"
+        },
+        {
+          "text": "Orçamento"
+        },
+        {
+          "text": "Quero preencher o formulário"
+        },
+        {
+          "text": "Saber sobre preços"
+        }
+      ],
+      "description": "Intenção para ajudar o cliente a preencher o formulário de contato"
+    },
+    {
+      "intent": "CRM",
+      "examples": [
+        {
+          "text": "Como funciona o CRM?"
+        },
+        {
+          "text": "CRM"
+        },
+        {
+          "text": "Explicação sobre CRM"
+        },
+        {
+          "text": "Explique sobre CRM"
+        },
+        {
+          "text": "Fale sobre CRM"
+        },
+        {
+          "text": "Funcionamento do CRM"
+        },
+        {
+          "text": "Gostaria de saber sobre CRM"
+        },
+        {
+          "text": "Gostaria de uma explicação sobre CRM"
+        },
+        {
+          "text": "Me explique sobre CRM"
+        },
+        {
+          "text": "O que é CRM?"
+        },
+        {
+          "text": "O que seria CRM?"
+        },
+        {
+          "text": "Relacionamento com o cliente"
+        }
+      ],
+      "description": "Intenção para explicar sobre CRM"
+    },
+    {
+      "intent": "Customer360",
+      "examples": [
+        {
+          "text": "Como funciona o Customer360?"
+        },
+        {
+          "text": "Customer360"
+        },
+        {
+          "text": "Gostaria de saber sobre o Customer360"
+        },
+        {
+          "text": "Me conte sobre o Customer360"
+        },
+        {
+          "text": "Me explique o Customer360"
+        },
+        {
+          "text": "Me explique sobre o Customer360"
+        },
+        {
+          "text": "O que é Customer360?"
+        },
+        {
+          "text": "O que é o Customer360?"
+        },
+        {
+          "text": "Pacote completo"
+        },
+        {
+          "text": "Poderia me explicar sobre o Customer360?"
+        },
+        {
+          "text": "Produto Customer360"
+        },
+        {
+          "text": "Sobre Customer360"
+        }
+      ],
+      "description": "Intenção para explicar sobre o Customer360"
+    },
+    {
+      "intent": "DuvidasSalesforce",
+      "examples": [
+        {
+          "text": "Conhecer a salesforce"
+        },
+        {
+          "text": "Conte sobre a Salesforce"
+        },
+        {
+          "text": "Explique sobre a Salesforce"
+        },
+        {
+          "text": "Gostaria de saber sobre a história da Salesforce"
+        },
+        {
+          "text": "Gostaria de saber sobre a salesforce"
+        },
+        {
+          "text": "História Salesforce"
+        },
+        {
+          "text": "Me conte sobre a salesforce"
+        },
+        {
+          "text": "Me fale sobre a Salesforce"
+        },
+        {
+          "text": "O que é a Salesforce?"
+        },
+        {
+          "text": "O que é Salesforce?"
+        },
+        {
+          "text": "Salesforce"
+        },
+        {
+          "text": "Sobre a Salesforce"
+        }
+      ],
+      "description": "Intenção para explicar sobre a Salesforce"
+    },
+    {
+      "intent": "Encerramento",
+      "examples": [
+        {
+          "text": "Até mais"
+        },
+        {
+          "text": "Desligar"
+        },
+        {
+          "text": "Encerrar"
+        },
+        {
+          "text": "Finalizar"
+        },
+        {
+          "text": "Muito obrigada"
+        },
+        {
+          "text": "Muito obrigado"
+        },
+        {
+          "text": "Não preciso mais"
+        },
+        {
+          "text": "Não preciso mais de ajuda"
+        },
+        {
+          "text": "Obrigada"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Só isso"
+        },
+        {
+          "text": "Tchau"
+        }
+      ],
+      "description": "Intenção para encerrar a conversa"
+    },
+    {
+      "intent": "Feedback",
+      "examples": [
+        {
+          "text": "Enviar elogio"
+        },
+        {
+          "text": "Enviar feedback"
+        },
+        {
+          "text": "Enviar reclamação"
+        },
+        {
+          "text": "Enviar sugestão"
+        },
+        {
+          "text": "Fazer elogio"
+        },
+        {
+          "text": "Fazer feedback"
+        },
+        {
+          "text": "Fazer reclamação"
+        },
+        {
+          "text": "Fazer sugestão"
+        },
+        {
+          "text": "Gostaria de fazer um feedback"
+        },
+        {
+          "text": "Quero dar meu feedback"
+        },
+        {
+          "text": "Quero dar minha opinião"
+        },
+        {
+          "text": "Quero opinar"
+        },
+        {
+          "text": "Quero sugerir algo"
+        }
+      ],
+      "description": "Intenção para ajudar o cliente a enviar um feedback"
+    },
+    {
+      "intent": "Humano",
+      "examples": [
+        {
+          "text": "Agente humano"
+        },
+        {
+          "text": "Atendimento por uma pessoa"
+        },
+        {
+          "text": "Como falo com um humano?"
+        },
+        {
+          "text": "Conversar com humano"
+        },
+        {
+          "text": "Falar com humano"
+        },
+        {
+          "text": "Falar com uma pessoa"
+        },
+        {
+          "text": "Gostaria de conversar com um humano"
+        },
+        {
+          "text": "Gostaria de falar com uma pessoa"
+        },
+        {
+          "text": "Humano"
+        },
+        {
+          "text": "Quero conversar com humano"
+        },
+        {
+          "text": "Quero falar com um humano"
+        },
+        {
+          "text": "Ser atendido por uma pessoa"
+        }
+      ],
+      "description": "Intenção para o cliente falar com um agente humano"
+    },
+    {
+      "intent": "Produtos",
+      "examples": [
+        {
+          "text": "Me explique sobre os produtos"
+        },
+        {
+          "text": "Me fale os produtos da Salesforce"
+        },
+        {
+          "text": "Me liste os produtos"
+        },
+        {
+          "text": "Produtos"
+        },
+        {
+          "text": "Produtos da Salesforce"
+        },
+        {
+          "text": "Quais os produtos?"
+        },
+        {
+          "text": "Quais são os produtos da Salesforce?"
+        },
+        {
+          "text": "serviços"
+        },
+        {
+          "text": "Serviços da salesforce"
+        },
+        {
+          "text": "Todos os produtos"
+        },
+        {
+          "text": "Todos os produtos da Salesforce"
+        },
+        {
+          "text": "todos os serviços da salesforce"
+        }
+      ],
+      "description": "Intenção para revisar os produtos da Salesforce"
+    },
+    {
+      "intent": "Saudacao",
+      "examples": [
+        {
+          "text": "Ajuda"
+        },
+        {
+          "text": "Boa noite!"
+        },
+        {
+          "text": "Boa tarde!"
+        },
+        {
+          "text": "Bom dia!"
+        },
+        {
+          "text": "Começar atendimento"
+        },
+        {
+          "text": "Oi!"
+        },
+        {
+          "text": "Olá!"
+        },
+        {
+          "text": "Olá, gostaria de ajuda"
+        },
+        {
+          "text": "Olá, preciso de ajuda"
+        },
+        {
+          "text": "Preciso de ajuda"
+        },
+        {
+          "text": "/start"
+        },
+        {
+          "text": "Tudo bem?"
+        },
+        {
+          "text": "Tudo bom?"
+        }
+      ],
+      "description": "Intenção de saudação."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cnpj",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cnpj",
+          "patterns": [
+            "(\\d{2}.\\d{3}.\\d{3}/\\d{4}-\\d{2})",
+            "(\\d{14})"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\\.)+[A-Za-z]{2,}\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "preferencia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "email",
+          "synonyms": [
+            "e mail",
+            "e-mail",
+            "email",
+            "mail"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "telefone",
+          "synonyms": [
+            "cel",
+            "celular",
+            "fone",
+            "ligação",
+            "tel",
+            "telefone"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim-nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Não",
+          "synonyms": [
+            "n",
+            "Nao",
+            "naum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": [
+            "Claro",
+            "OK",
+            "Sim",
+            "Tá",
+            "Tá bom",
+            "Td bem",
+            "Tudo bem"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "telefone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "celular",
+          "patterns": [
+            "(\\d{2}) (\\d{5}-\\d{4})",
+            "(\\d{2}) (\\d{9})",
+            "(\\d{2}) (\\d{5}) (\\d{4})",
+            "(\\d{11})"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "fixo",
+          "patterns": [
+            "(\\d{2}) (\\d{4}-\\d{4})",
+            "(\\d{2}) (\\d{8})",
+            "(\\d{2}) (\\d{4}) (\\d{4})",
+            "(\\d{10})"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, sou o assistente de chat da Salesforce! Me informe como posso te ajudar:\n\n- Sobre a Salesforce;\n- Acessibilidade em nosso site;\n- Formulário de contato;\n- Sobre CRM;\n- Customer 360;\n- Enviar um feedback;\n- Falar com um humano.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não te entendi. Você pode tentar reformular a frase?"
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Não estou conseguindo te entender."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_8_1699716481731",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o e-mail para contato?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1699715676701",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1699715676701",
+      "previous_sibling": "handler_2_1699715676701"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você prefere contato por e-mail ou telefone?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1699715737047",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1699715737048",
+      "previous_sibling": "handler_3_1699715737048"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1699715676701",
+      "context": {
+        "email": "@email.literal"
+      },
+      "conditions": "@email",
+      "event_name": "input",
+      "dialog_node": "handler_2_1699715676701"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o CNPJ da empresa? *Insira 14 caracteres"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1699708936797",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1699708936804",
+      "previous_sibling": "handler_8_1699708936804"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1699715720367",
+      "context": {
+        "telefone": "@telefone.literal"
+      },
+      "conditions": "@telefone",
+      "event_name": "input",
+      "dialog_node": "handler_3_1699715720367"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1699715737047",
+      "context": {
+        "preferencia": "@preferencia.literal"
+      },
+      "conditions": "@preferencia",
+      "event_name": "input",
+      "dialog_node": "handler_3_1699715737048"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual seria o telefone? *Com DDD"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1699715720367",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1699715720367",
+      "previous_sibling": "handler_3_1699715720367"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1699708936797",
+      "context": {
+        "cnpj": "@cnpj.literal"
+      },
+      "conditions": "@cnpj",
+      "event_name": "input",
+      "dialog_node": "handler_8_1699708936804"
+    },
+    {
+      "type": "standard",
+      "title": "CRM",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vou te explicar um pouquinho sobre CRM.\n\nCRM é uma sigla em inglês para Customer Relationship Management. Em português seria Gestão de Relacionamento com o Cliente, ou melhor, se refere ao conjunto de práticas, estratégias de negócio e tecnologias focadas no relacionamento com o cliente!\n\nTemos uma página inteira só sobre CRM, recomendo que você dê uma lida: https://www.salesforce.com/br/crm/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#CRM",
+      "dialog_node": "node_1_1699707407318",
+      "previous_sibling": "node_8_1699707336516"
+    },
+    {
+      "type": "standard",
+      "title": "Sobre a Salesforce",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah, vou te explicar um pouquinho sobre a Salesforce! \n\nSomos uma empresa de softwares que foca na solução de gerenciamento de relacionamento para aproximar empresas e pessoas. É uma plataforma de CRM integrada que oferece a todos os departamentos uma visão única e compartilhada de cada cliente.\n\nTemos uma página inteirinha sobre isso, se quiser dê uma olhada: \nhttps://www.salesforce.com/br/products/what-is-salesforce/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#DuvidasSalesforce",
+      "dialog_node": "node_3_1699706846748",
+      "previous_sibling": "node_7_1700050225545"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo bem! Nesse caso você pode responder o formulário pelo nosso site! https://www.salesforce.com/br/form/contact/contactme/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1699707336516",
+      "conditions": "@sim-nao:Não",
+      "dialog_node": "node_6_1699716604383",
+      "previous_sibling": "node_8_1699708911719"
+    },
+    {
+      "type": "standard",
+      "title": "Saudação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, sou o assistente de chat da Salesforce! Me informe como posso te ajudar:\n\n- Sobre a Salesforce;\n- Acessibilidade em nosso site;\n- Formulário de contato;\n- Sobre CRM;\n- Customer 360;\n- Enviar um feedback;\n- Falar com um humano."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Saudacao",
+      "dialog_node": "node_7_1699705629109",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Produtos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esses são alguns dos produtos oferecidos pela Salesforce:\n\n- Sales Cloud;\n- Service Cloud;\n- Marketing Cloud;\n- Commerce Cloud;\n- Data Cloud;\n- Slack;\n\nAlém de outros produtos, temos o Customer360 que junta todos em um só! Gostaria de saber mais? Preencha um formulário de contato!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Produtos",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1700050225545",
+      "previous_sibling": "node_7_1699705629109"
+    },
+    {
+      "type": "standard",
+      "title": "Formulário contato",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vou precisar de alguns dados para que nossa equipe entre em contato com você, tá bom?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Contato",
+      "dialog_node": "node_8_1699707336516",
+      "previous_sibling": "node_9_1699707114334"
+    },
+    {
+      "type": "standard",
+      "title": "Formulário feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Opa, peço que você registre o seu feedback por esse link:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Feedback",
+      "dialog_node": "node_8_1699708223802",
+      "previous_sibling": "node_9_1699707825276"
+    },
+    {
+      "type": "standard",
+      "title": "Humano",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah, você quer falar com um humano? Sem problemas, já estou te transferindo para um..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Humano",
+      "dialog_node": "node_8_1699708290611",
+      "previous_sibling": "node_8_1699708223802"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito obrigada pelas respostas! Aqui segue a confirmação:\n- CNPJ $cnpj;\n- E-mail $email;\n- Telefone $telefone;\n- Entraremos em contato por $preferencia em até 3 dias úteis!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1699707336516",
+      "conditions": "@sim-nao:Sim",
+      "dialog_node": "node_8_1699708911719"
+    },
+    {
+      "type": "standard",
+      "title": "Encerramento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito obrigada pela preferência! Até mais!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Encerramento",
+      "dialog_node": "node_8_1699716481731",
+      "previous_sibling": "node_8_1699708290611"
+    },
+    {
+      "type": "standard",
+      "title": "Acessibilidade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Opa, nosso site tem muitos recursos de acessibilidade, pois a Salesforce acredita na democratização virtual!\n\nNosso site possui uma navegação intuitiva para que todos consigam encontrar o que procuram, além de uma linguagem simples para melhor entendimento. Também temos dois plug-ins bem importantes, um para tradução em Libras e outro para alterar o visual do site ^^"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Acessibilidade",
+      "dialog_node": "node_9_1699707114334",
+      "previous_sibling": "node_3_1699706846748"
+    },
+    {
+      "type": "standard",
+      "title": "Customer360",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Customer360 é um grande produto que reúne vários produtos dentro dele!\n\nReunindo as equipes de marketing, vendas, comércio, serviços e TI, todas em torno do cliente. Conectando todos aos dados em tempo real e facilitando a colaboração entre equipes, entregando experiências que vão encantar os clientes.\n\nTemos uma página exclusiva para o Customer360: https://www.salesforce.com/br/products/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Customer360",
+      "dialog_node": "node_9_1699707825276",
+      "previous_sibling": "node_1_1699707407318"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1699708911719",
+      "variable": "$email",
+      "dialog_node": "slot_1_1699715676701",
+      "previous_sibling": "slot_2_1699708936797"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1699708911719",
+      "variable": "$preferencia",
+      "dialog_node": "slot_1_1699715737047",
+      "previous_sibling": "slot_5_1699715720367"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1699708911719",
+      "variable": "$cnpj",
+      "dialog_node": "slot_2_1699708936797"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1699708911719",
+      "variable": "$telefone",
+      "dialog_node": "slot_5_1699715720367",
+      "previous_sibling": "slot_1_1699715676701"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "created for assistant f282bc02-03cf-4dfe-8159-69adafe7471a",
+  "name": "Salesforce Bot-dialog"
+}

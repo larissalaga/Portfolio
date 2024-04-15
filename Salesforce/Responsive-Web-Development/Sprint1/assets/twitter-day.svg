@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#59575C;}
+</style>
+<g id="transparent_border">
+	<rect class="st0" width="32" height="32"/>
+</g>
+<g id="icon-bg">
+	<path class="st1" d="M7,3.4h18c2,0,3.6,1.6,3.6,3.6v18c0,2-1.6,3.6-3.6,3.6H7c-2,0-3.6-1.6-3.6-3.6V7C3.4,5,5,3.4,7,3.4z"/>
+</g>
+<g id="icons">
+	<path class="st2" d="M26,2H6C3.8,2,2,3.8,2,6v20c0,2.2,1.8,4,4,4h20c2.2,0,4-1.8,4-4V6C30,3.8,28.2,2,26,2z"/>
+</g>
+<path class="st1" d="M17.4,14.8L23,8.3h-1.3L16.8,14L13,8.3H8.5l5.9,8.5l-5.9,6.8h1.3l5.1-6l4.1,6h4.5L17.4,14.8L17.4,14.8z
+	 M15.6,16.9L15,16.1l-4.7-6.8h2l3.8,5.5l0.6,0.8l5,7.1h-2L15.6,16.9L15.6,16.9z"/>
+</svg>

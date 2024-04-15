@@ -1,0 +1,102 @@
+/*ESTILIZAÇÃO EQUIPE*/
+.equipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 100px;
+    background-image: linear-gradient(#D4EBFD, #FFFFFF, #CAEBE9);
+  }
+  .informacoes-equipe{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .titulo-equipe{
+    color: #032D60;
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 64px;
+  }
+  .fotos{
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+  
+  }
+  .informacoes-pessoais{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .informacoes-pessoais-esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .nomes-equipe{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nome-rm-rede{
+    color: #032D60;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 119px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: -30px;
+    border: 4px solid;
+    border-radius: 60px;
+    border-color:  #00000040;
+    background-color: white;
+  }
+  .nome-rm-rede-esquerda{
+    color: #032D60;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 119px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: -30px;
+    border: 4px solid;
+    border-radius: 60px;
+    border-color:  #00000040;
+    background-color: white;
+    z-index: 2;
+  }
+  .botao-contato-linkedin{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 20px;
+    height: 42px;
+    background-color: transparent;
+    border: none;
+  
+  }
+  .link-linkedin{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 5px 0px 5px;
+    height: 42px;
+    color: #032D60;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+  }
+  .link-linkedin:hover{
+    text-decoration: underline;
+    text-decoration-color: #032D60;
+  }

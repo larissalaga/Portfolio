@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="849A6289-F5EA-203D-3938-3B6E8EE58769" containerWithKeyObject="74B6869A-8A8F-D5D0-FF30-B7CB3B63D726" localFKIndex="19ED04C8-FB31-39E9-AD87-E871DFD476CD" name="T_SGDD_FUNC_SALESFORCE_T_SGDD_SETORES_SALESFORCE_FK">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>E6ACAF1D-6444-538F-46AA-32E304EC3F7B</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<referredTableLongName>T_SGDD_SETORES_SALESFORCE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>367EFEB6-46AA-E346-B92D-83A2CF5E5A1E</referredTableID>
+<keyObject>0AADC288-D674-77AD-B6C7-D9CDF9D207BC</keyObject>
+<referredKeyID>0AADC288-D674-77AD-B6C7-D9CDF9D207BC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_numero_setor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D14E6532-82DC-972B-77EA-447DBDCF1764" name="T_SGDD_SERVICO_PRODUTO">
+<createdBy>lalop</createdBy>
+<createdTime>2023-10-15 01:05:59 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_codigo_produto_servico" id="0C661703-5D8C-3C23-6087-DDDA17EBA499">
+<createdBy>lalop</createdBy>
+<createdTime>2023-10-15 01:06:27 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ind_tipo" id="4D38DB2F-6BD7-6050-DA90-FA2BB65F3CE7">
+<createdBy>lalop</createdBy>
+<createdTime>2023-10-15 01:52:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[P-produto
+S-serviço]]></commentInRDBMS>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_produto_servico" id="ABC5FDEA-ED86-298F-1308-E542215BD30F">
+<createdBy>lalop</createdBy>
+<createdTime>2023-10-15 01:52:44 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_disponibilidade" id="743E9097-9B40-5075-71DF-9AB694A0A74F">
+<createdBy>lalop</createdBy>
+<createdTime>2023-10-15 02:00:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[DIS-Disponivel
+IND- Indisponivel]]></commentInRDBMS>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_duracao_prazo_licensa" id="6514E459-07EE-A493-5578-D2426B19C6C1">
+<createdBy>lalop</createdBy>
+<createdTime>2023-10-15 02:01:15 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_unitario_projeto" id="92349759-DA9E-76B9-446D-F2097B37EE81">
+<createdBy>lalop</createdBy>
+<createdTime>2023-10-15 02:02:53 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_produto_servico" id="BC34B3E6-1179-FEF1-C353-2997DBC411E1">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 20:17:48 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cod_pedido" id="6240AF7F-CE01-3EBB-C035-15307DDC5E63">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 20:49:25 UTC</createdTime>
+<generatorID>3BFABBE5-D8FA-1336-B559-105125037377</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="true"/>
+</engineerTo>
+<referedAttribute>3DC355D4-5001-1841-E8FA-5BF17DA106AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8EEF212E-3ECA-1FA8-35FE-420B3EDD3290" name="T_SGDD_SERVICO_PRODUTO PK">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 20:18:40 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FC70EC99-9CF1-945E-80F3-6B495AB39BBB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C661703-5D8C-3C23-6087-DDDA17EBA499</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

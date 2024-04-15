@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4B8214F-A03E-F9E5-E4AD-62F449B4BC66" name="Relation_11">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_SGDD_PEDIDO_id_cod_pedido" id="DC3D82BF-0B75-0748-C445-30D5C4E4CC50">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16FA669D-74CE-153C-87DB-1CCBC5FFBBE8" referredColumn="5809C03D-BC77-1A1E-5AA4-7279FB227999"/>
+</associations>
+</Column>
+<Column name="T_SGDD_FUNC_SALESFORCE_id_funcionario" id="5A244122-189C-E2BB-DB66-1814F85E66C7">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7961C7C9-A203-6980-9D15-3C28AB089BE6" referredColumn="9933D219-B89B-DE42-996D-23CD00AD45A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84371DCB-B768-674C-4CFB-1715407F7C69" name="Relation_11_PK">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC3D82BF-0B75-0748-C445-30D5C4E4CC50"/>
+<colUsage columnID="5A244122-189C-E2BB-DB66-1814F85E66C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC5DA69F-6961-730E-4F18-50568C0E4E08" name="Relation_11_T_SGDD_PEDIDO_FK">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>FAFB67AB-03AD-CC33-D05B-5BB3639A1ABB</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC3D82BF-0B75-0748-C445-30D5C4E4CC50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="654AF6F6-9321-DAC3-0991-498B13B60462" name="Relation_11_T_SGDD_FUNC_SALESFORCE_FK">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:05:37 UTC</createdTime>
+<generatorID>FAFB67AB-03AD-CC33-D05B-5BB3639A1ABB</generatorID>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A244122-189C-E2BB-DB66-1814F85E66C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

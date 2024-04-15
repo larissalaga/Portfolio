@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="112D5841-7F1E-19C8-174B-122BFA87B1FF" name="Arc_2">
+<createdBy>lalop</createdBy>
+<createdTime>2023-11-11 21:14:00 UTC</createdTime>
+<ownerDesignName>modelo-logico-sprint2</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>A9E7FA9E-4D79-B8CC-E8EE-B38F10095B8C</table>
+<fkeys>
+<fkeyID>F0C589EF-9634-D765-0174-F9801F587E91</fkeyID>
+<fkeyID>6E3B5515-F343-32DC-F25F-E39C66EF6E99</fkeyID>
+</fkeys>
+</FKArc>
