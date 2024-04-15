@@ -14,4 +14,4 @@ This portfolio serves to showcase my skills in both individual work and collabor
 
 Contact:
 
-For more information about the projects, future collaborations, or inquiries, please feel free to contact me directly via GitHub or at my LinkedIn Larissa Araujo Gama Alvarenga.
+For more information about the projects, future collaborations, or inquiries, please feel free to contact me directly via GitHub or at my LinkedIn [Larissa Araújo Gama](https://www.linkedin.com/in/larissa-araujo-gama-alvarenga/?locale=en_US).
