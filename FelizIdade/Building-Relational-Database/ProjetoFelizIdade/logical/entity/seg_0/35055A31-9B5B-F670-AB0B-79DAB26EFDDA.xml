@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35055A31-9B5B-F670-AB0B-79DAB26EFDDA" name="T_FLID_ENDERECO">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:31:34 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereco" id="92F807AA-FA81-9E09-D0ED-9C5F08FADF2F">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:32:24 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cep" id="F8174ADC-224F-B17B-0970-6D379673224F">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:31:34 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_logradouro" id="9313151A-E3B8-C2CD-B86D-FC4BF3F935D6">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:31:34 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_logradouro" id="2431C6C9-3ADC-F357-D635-D38714D43BC7">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:31:34 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="37475C64-B912-2D4E-BCC3-D23532FC27C4">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:31:34 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_estado" id="9FC6B791-095B-7F81-1AA6-0299FBD5006D">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:31:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[ex - MG, SP, RJ...]]></commentInRDBMS>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="FF6D8900-DCF0-503A-113F-5549D065AC01">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:31:34 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pais" id="FA303953-F0A2-5431-2D28-D9D2F56EFE55">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:31:34 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_medico" id="D20D877A-5231-DDE4-6881-FC0F3A66FCE6">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:35:16 UTC</createdTime>
+<generatorID>0647CD78-08DA-B333-70BB-7AA2DF98C059</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<referedAttribute>674C406B-4565-24CB-0F30-B50A1A65431A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="3396A244-67EA-B647-7632-ACFFE80F1326">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:35:48 UTC</createdTime>
+<generatorID>CAAD8982-6579-2054-8A10-DE614946ECD9</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<referedAttribute>FB59DF3E-9E3A-10DB-30C1-CEEFC73EB732</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="0C200123-9A9D-70E7-2663-645E2F49E58F">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:36:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[TIPO DE ENDEREÇO- EX: CASA, CONSULTORIO,HOSPITAL]]></commentInRDBMS>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D47D9254-A502-FCF7-F278-9976BCAB830C" name="T_CONTATO PK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:31:34 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92F807AA-FA81-9E09-D0ED-9C5F08FADF2F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

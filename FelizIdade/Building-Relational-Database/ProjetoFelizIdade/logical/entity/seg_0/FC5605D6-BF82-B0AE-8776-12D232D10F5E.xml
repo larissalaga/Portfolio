@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC5605D6-BF82-B0AE-8776-12D232D10F5E" name="T-FLID-LOGIN">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-26 23:43:07 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_senha" id="1B49FFA5-B11E-E163-5114-B3CB634480D7">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-27 23:27:24 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="DD24835A-26C5-442F-D501-EF72ABF31715">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-27 23:27:46 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_situacao" id="CC14A22D-E95F-B5E8-5459-8DB16AAECBE0">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-27 23:41:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[A- ATIVO
+I- INATIVO]]></commentInRDBMS>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B32950F-1B40-FED9-56CE-4D90BB3763C9" name="T-FLID-LOGIN PK">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-27 23:27:27 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD24835A-26C5-442F-D501-EF72ABF31715</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

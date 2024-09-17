@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="71092032-9898-4078-B01B-F1F648C020AD" containerWithKeyObject="29B40C56-06C9-B007-3109-42885EF0F354" localFKIndex="355D4232-8D28-C965-D8A0-D0991A5BB772" name="T_FLID_RESPOSTAS_T_FLID_PERGUNTAS_FK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>241F6C29-80E2-B717-DE11-C4AFD1E95319</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<referredTableLongName>T_FLID_PERGUNTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A2D0133F-BD23-4D60-E0DF-0567F5E028A6</referredTableID>
+<keyObject>D753AB91-7253-9B2C-F3EF-EBA61C3CA6EF</keyObject>
+<referredKeyID>D753AB91-7253-9B2C-F3EF-EBA61C3CA6EF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pergunta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

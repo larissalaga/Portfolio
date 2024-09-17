@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1145F0D3-AC85-8A89-E2BF-3F51E43B3825" containerWithKeyObject="E5CAFC8F-A687-58F2-383C-E0E6A4C14666" localFKIndex="3E0C6633-DEED-FC09-B03C-EF455900275C" name="Relation_7_T_SGDR_TIPOS_PLASTICO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>7C82DE97-7933-265E-DEC5-3EFA08B4617F</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<referredTableLongName>T_SGDR_TIPOS_PLASTICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ECC3C820-803C-DF3B-2727-191B73239D69</referredTableID>
+<keyObject>29FA6531-261C-DF01-3823-FE1DB0E3C727</keyObject>
+<referredKeyID>29FA6531-261C-DF01-3823-FE1DB0E3C727</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_plastico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

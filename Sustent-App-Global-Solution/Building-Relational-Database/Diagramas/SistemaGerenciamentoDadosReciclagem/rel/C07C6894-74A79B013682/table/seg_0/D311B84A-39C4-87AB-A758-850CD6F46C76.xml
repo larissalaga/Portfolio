@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D311B84A-39C4-87AB-A758-850CD6F46C76" name="T_SGDR_COOPERATIVA">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>3D8863C5-4703-4E9C-5B0D-BAA321B9F32D</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cooperativa" id="ADB8CB1E-8AE3-557B-8608-05CA2590ED84">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>F6AEEA10-BA9F-11D3-9781-BA02C7E95CF2</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_coperativa" id="D4E0D160-973E-FA65-4C77-AE03A0CB05BE">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>5012B1D8-3752-87C0-F6D7-A97CB8E18820</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="D52323DC-CAA5-25C2-EDA6-1E222C7CE88E">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>576A9FE7-5EF3-2F18-C364-3F49C8D73F24</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGDR_ENDERECO_id_endereco" id="6249BB2A-131D-5B6A-85B8-E44CF68A4B03">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-05 16:32:02 UTC</createdTime>
+<generatorID>69F325D8-1B39-07ED-F38C-0EA5109FBEFB</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="045F1B60-7CEA-2572-FD2C-38119444B43E" referredColumn="20E7A984-3820-8BE9-00EC-F7EBE7E6C08B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44D916CB-1638-45FE-341E-2963F25434C5" name="T_SGDR_COOPERATIVA_PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>6967DD69-91A5-0E80-BB5A-35CCCA0FED9D</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADB8CB1E-8AE3-557B-8608-05CA2590ED84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9454D87-C742-A814-D2A1-FE84E1B776A3" name="T_SGDR_COOPERATIVA__IDX">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-05 16:32:02 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>43465C5A-F3B0-CC97-2B7D-6C6F3355FA9F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6249BB2A-131D-5B6A-85B8-E44CF68A4B03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2B94F17-1BAC-2E00-33B1-181B2D68BB80" name="T_SGDR_COOPERATIVA_T_SGDR_ENDERECO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-05 16:32:02 UTC</createdTime>
+<generatorID>43465C5A-F3B0-CC97-2B7D-6C6F3355FA9F</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6249BB2A-131D-5B6A-85B8-E44CF68A4B03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

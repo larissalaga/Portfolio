@@ -1,0 +1,472 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*ESTILIZAÇÃO PRODUTOS*/
+@media screen and (min-width: 1024px) {
+  .pagina{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .customer360{
+    background-image: url("../../../public/assets/backcustomer.png");
+    background-size: 100% 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .produto1{
+    display: flex;
+    padding-bottom: 30px;
+  }
+  .artigo1{
+    display: flex;
+    padding: 20px 20px 20px 50px;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+    width: 100%;
+  }
+  .customerlogo{
+    width: 408px;
+    height: 394px;
+  }
+  .produto2{
+    display: flex;
+    padding-bottom: 30px;
+    align-items: center;
+    gap: 14px;
+  }
+  .artigo2{
+    display: flex;
+    align-self: stretch;
+    padding: 20px 20px 20px 50px;
+    flex-direction: column;
+    gap: 24px;
+    align-self: stretch;
+    width: 100%;
+  }
+  .customerlogo2{
+    width: 300px;
+    height: 274px;
+    padding-left: 50px;
+  }
+  h2{
+    max-width: 620px;
+    align-self: stretch;
+    color: #032D60;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.672px;
+  }
+  .textoartigo{
+    max-width: 800px;
+    align-self: stretch;
+    color: #181818;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .nuvemdedados{
+    background-image: url("../../../public/assets/backdata.png");
+    background-size: 100% 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .marketingcloud{
+    background-image: url("../../../public/assets/backmarketing.png");
+    background-size: 100% 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .corpobotao{
+    display: flex;
+    padding: 10px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 2px solid #0B5CAB;
+    background: #0B5CAB;
+    margin-bottom: 56px;
+    margin-top: 30px;
+  }
+  .textobotao{
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 4px;
+    border: 2px solid #0B5CAB;
+    background: #0B5CAB;
+  }
+  .datalogo{
+    width: 452px;
+    height: 383px;
+  }
+  .datalogo2{
+    width: 279px;
+    height: 200px;
+    padding-left: 30px;
+  }
+  .marketinglogo{
+    width: 300px;
+    height: 229.487px;
+    padding-top: 100px;
+  }
+  .marketinglogo2{
+    width: 251px;
+    height: 241px;
+    padding-left: 30px;
+  } 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .pagina{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .customer360{
+    background-image: url("../../../public/assets/backcustomer.png");
+    background-size: 100% 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .produto1{
+    display: flex;
+    width: 768px;
+    justify-content: center;
+    align-items: center;
+  }
+  .artigo1{
+    display: flex;
+    padding: 20px 20px 20px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+  .customerlogo{
+    width: 300px;
+    height: 289.706px;
+  }
+  .produto2{
+    display: flex;
+    width: 768px;
+    align-items: center;
+    gap: 14px;
+  }
+  .artigo2{
+    display: flex;
+    padding: 20px 20px 20px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+
+  .customerlogo2{
+    width: 230px;
+    height: 210.067px;
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  h2{
+    max-width: 620px;
+    align-self: stretch;
+    color: #032D60;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.672px;
+  }
+  .textoartigo{
+    color: #181818;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .nuvemdedados{
+    background-image: url("../../../public/assets/backdata.png");
+    background-size: 100% 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .marketingcloud{
+    background-image: url("../../../public/assets/backmarketing.png");
+    background-size: 100% 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .corpobotao{
+    display: flex;
+    padding: 10px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 2px solid #0B5CAB;
+    background: #0B5CAB;
+    margin-bottom: 44px;
+    margin-top: 30px;
+  }
+  .textobotao{
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 4px;
+    border: 2px solid #0B5CAB;
+    background: #0B5CAB;
+  }
+  .datalogo{
+    width: 300px;
+    height: 254.204px;
+    
+  }
+  .datalogo2{
+    width: 200px;
+    height: 143.369px;
+    display: flex;
+    padding-left: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  .marketinglogo{
+    width: 230px;
+    height: 175.94px;
+  }
+  .marketinglogo2{
+    width: 200px;
+    height: 192.032px;
+    display: flex;
+    padding-left: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pagina{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .customer360{
+    background-image: url("../../../public/assets/backcustomer.png");
+    background-size: 100% 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    padding: 30px 0px 50px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .produto1{
+    display: flex;
+    width: 480px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .artigo1{
+    display: flex;
+    padding: 20px 20px 20px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+  }
+  .customerlogo{
+    width: 300px;
+    height: 289.706px;
+  }
+  .produto2{
+    display: flex;
+    width: 480px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+  }
+  .artigo2{
+    display: flex;
+    padding: 20px 20px 20px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+  }
+
+  .customerlogo2{
+    width: 230px;
+    height: 210.067px;
+    order: 2;
+  }
+  h2{
+    max-width: 620px;
+    align-self: stretch;
+    color: #032D60;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -0.672px;
+  }
+  .textoartigo{
+    color: #181818;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .nuvemdedados{
+    background-image: url("../../../public/assets/backdata.png");
+    background-size: 100% 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    padding: 50px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .marketingcloud{
+    background-image: url("../../../public/assets/backmarketing.png");
+    background-size: 100% 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    padding: 50px 0px 30px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .corpobotao{
+    display: flex;
+    padding: 10px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 2px solid #0B5CAB;
+    background: #0B5CAB;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  .textobotao{
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 4px;
+    border: 2px solid #0B5CAB;
+    background: #0B5CAB;
+  }
+  .datalogo{
+    width: 300px;
+    height: 254.204px;
+    
+  }
+  .datalogo2{
+    width: 200px;
+    height: 143.369px;
+    display: flex;
+    padding-left: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    order: 2;
+  }
+  .marketinglogo{
+    width: 230px;
+    height: 175.94px;
+  }
+  .marketinglogo2{
+    width: 200px;
+    height: 192.032px;
+    display: flex;
+    padding-left: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    order: 2;
+  }
+}

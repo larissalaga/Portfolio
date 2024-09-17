@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback de clientes</title>
+    <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Escreva o Feedback abaixo:</h1>
+        <form method="POST" action="/">
+            <input type="text" name="feedback"> 
+            <button type="submit">Enviar</button>
+        </form>
+        {% if prediction %}
+            <p class="result">{{ prediction }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>

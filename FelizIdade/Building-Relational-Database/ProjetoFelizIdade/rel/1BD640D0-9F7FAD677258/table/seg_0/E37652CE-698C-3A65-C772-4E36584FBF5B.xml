@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E37652CE-698C-3A65-C772-4E36584FBF5B" name="T_FLID_MEDICO">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>64AD1FF1-BBA1-A955-15F6-DE6F953A9F2D</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_medico" id="002ADF3E-12A8-1A3E-4F0B-FAAA4FDADE89">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>674C406B-4565-24CB-0F30-B50A1A65431A</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_crm" id="05E9F59E-0998-BC1C-D22B-08B5E654795B">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>2DABA869-E217-0095-43C1-0B319312028F</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_medico" id="ECA76487-C547-18D8-CB13-95B631460ADF">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>FDF125CC-00EC-567E-24AB-E46777F47982</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_especialidade" id="7C03D5B1-ED3A-9A30-229F-96116A3DDF03">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>E0D555ED-393E-8B11-1786-D7D0960D13F3</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="685CF0EE-F31C-9BCC-8D5E-7370A922214C">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>B6C93B95-BF23-7A95-2464-2C4FEE7892F0</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_rg" id="1290E17C-DC22-2752-33E9-F0C26AB57283">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>0FFF6CBD-724D-D5E0-2A80-76C5281281E6</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="8E933477-8E3F-9EFA-7D13-608CF4BA1091">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>80852EA3-F63E-5825-3654-47E2A20BBF06</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36D51121-91EA-2DC4-6646-E69A622754F4" name="T_FLID_MEDICO_PK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>2CD9BC22-AA0A-3F09-458C-FEEB6622F4D7</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="002ADF3E-12A8-1A3E-4F0B-FAAA4FDADE89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

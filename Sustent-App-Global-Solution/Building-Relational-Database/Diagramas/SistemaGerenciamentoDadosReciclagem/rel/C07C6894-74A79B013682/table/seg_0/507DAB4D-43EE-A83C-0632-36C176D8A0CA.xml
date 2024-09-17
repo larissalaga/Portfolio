@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="507DAB4D-43EE-A83C-0632-36C176D8A0CA" name="T_SGDR_ENDERECO">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>B27FFF12-5D0E-35A7-CCA1-00F09D239936</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_endereco" id="20E7A984-3820-8BE9-00EC-F7EBE7E6C08B">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-05 16:20:10 UTC</createdTime>
+<generatorID>53D5EE1D-D479-13F6-6691-E7488AC2D555</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cep" id="FC9B5046-17F9-1CC0-1452-E275E7C59572">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-05 16:08:31 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_pais" id="CFD06D9D-ED15-6F88-4AFF-855735B5F94C">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>DFD72FE4-3A90-833C-4651-4CA755790A12</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="23477704-2F35-2CD5-09A1-C5DB8ADB10AE">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>B53135F8-3CE9-0534-100A-8B4418C316FD</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="89D415C4-1DF8-B328-94C6-9AB3A3BE5D30">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>AD2AFB81-9254-C83F-F923-C84A8080F1CB</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_logradouro" id="F1C87DD2-E061-C49F-03C7-38C439B33C80">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>F7FFE97C-1346-DAA1-B7E0-D54D8EC4E7FD</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_logradouro" id="EE7B7C54-FA66-136B-892F-2CC5ACFC437A">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>ABC7A686-FFBA-075E-C8B2-C51E14882452</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_complemento" id="9FD97FAE-994A-1F66-72B6-7384C38EF762">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>7A964198-2F37-FBDD-D6BF-2F429E5884DB</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB6D52B0-EC66-FCCF-F4D1-ABBF01FC36B2" name="T_SGDR_ENDERECO_PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>B5C10F17-3457-B708-6630-F1393890294C</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20E7A984-3820-8BE9-00EC-F7EBE7E6C08B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

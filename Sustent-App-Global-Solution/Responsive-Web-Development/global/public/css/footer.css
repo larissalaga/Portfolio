@@ -1,0 +1,26 @@
+footer {
+  background-color: #38ADC6;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer ul li {
+  margin-bottom: 5px;
+}

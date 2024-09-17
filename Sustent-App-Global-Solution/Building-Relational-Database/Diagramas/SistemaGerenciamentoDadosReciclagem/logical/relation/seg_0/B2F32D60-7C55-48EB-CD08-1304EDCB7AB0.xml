@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_SGDR_PLASTICO_USUARIO" directorySegmentName="seg_0" id="B2F32D60-7C55-48EB-CD08-1304EDCB7AB0">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:13:43 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="C07C6894-41B2-B325-B5D9-74A79B013682" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0463556D-EE54-A2AB-17C8-4F1587E8A5C3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>89046BFA-48C4-9B97-9D22-DCA461FA34C1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

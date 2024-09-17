@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D82EBC97-9ED5-DB04-238E-23D76B6B9E99" name="T-FLID-LOGIN">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>FC5605D6-BF82-B0AE-8776-12D232D10F5E</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_senha" id="1630F989-DE8A-F991-352E-2FC277A76324">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>1B49FFA5-B11E-E163-5114-B3CB634480D7</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario" id="F61F1090-246B-0731-37C9-A3EABFF13411">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>DD24835A-26C5-442F-D501-EF72ABF31715</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_situacao" id="6611E4EC-07AC-87FD-2473-294701024000">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[A- ATIVO
+I- INATIVO]]></commentInRDBMS>
+<generatorID>CC14A22D-E95F-B5E8-5459-8DB16AAECBE0</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31CBC0AA-C05F-30DF-4575-92E11E15A69A" name="T-FLID-LOGIN_PK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>8B32950F-1B40-FED9-56CE-4D90BB3763C9</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F61F1090-246B-0731-37C9-A3EABFF13411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

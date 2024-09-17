@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5CAFC8F-A687-58F2-383C-E0E6A4C14666" name="T_SGDR_PLASTICO_COOPERATIVA">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_SGDR_COOPERATIVA_id_cooperativa" id="C303DF60-69D9-807C-09AD-669890DBDC5C">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E66C9F9B-ED0B-45A7-F6B1-A85EE11D59AF" referredColumn="ADB8CB1E-8AE3-557B-8608-05CA2590ED84"/>
+</associations>
+</Column>
+<Column name="T_SGDR_TIPOS_PLASTICO_id_plastico" id="69D2D286-A596-6835-B388-DED48954CFF9">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1145F0D3-AC85-8A89-E2BF-3F51E43B3825" referredColumn="BE8D39EA-B88F-1765-9763-2138C7F0BD0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61D99B90-F702-3093-0F31-65F8557C22EE" name="Relation_7_PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C303DF60-69D9-807C-09AD-669890DBDC5C"/>
+<colUsage columnID="69D2D286-A596-6835-B388-DED48954CFF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="308B4F24-F13C-75F4-2CB1-2FFEAFF4EA24" name="Relation_7_T_SGDR_COOPERATIVA_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>7C82DE97-7933-265E-DEC5-3EFA08B4617F</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C303DF60-69D9-807C-09AD-669890DBDC5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E0C6633-DEED-FC09-B03C-EF455900275C" name="Relation_7_T_SGDR_TIPOS_PLASTICO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>7C82DE97-7933-265E-DEC5-3EFA08B4617F</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69D2D286-A596-6835-B388-DED48954CFF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

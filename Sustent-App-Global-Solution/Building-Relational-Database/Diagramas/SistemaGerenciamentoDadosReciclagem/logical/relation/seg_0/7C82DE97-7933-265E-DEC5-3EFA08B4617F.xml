@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_SGDR_PLASTICO_COOPERATIVA" directorySegmentName="seg_0" id="7C82DE97-7933-265E-DEC5-3EFA08B4617F">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:14:32 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="C07C6894-41B2-B325-B5D9-74A79B013682" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3D8863C5-4703-4E9C-5B0D-BAA321B9F32D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>89046BFA-48C4-9B97-9D22-DCA461FA34C1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

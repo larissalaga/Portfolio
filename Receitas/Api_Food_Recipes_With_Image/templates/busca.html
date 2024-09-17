@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandma's Cookbook</title>
+    <link rel="stylesheet" href="../static/assets/css/busca.css">
+    <script src="../static/assets/js/busca.js" defer></script>
+</head>
+<body>
+
+<nav>
+    <!-- Navegação -->
+    <div class="container">
+        <h1 class="logo">Grandma's Cookbook</h1>
+    </div>
+</nav>
+
+<section class="forms">
+    <!-- Seção de Formulários -->
+    <div class="container">
+        <div class="form">
+            <!-- Formulário de Pesquisa -->
+            <h2>Pesquisar Receita</h2>
+            <form action="/" method="POST">
+                <label for="search">Pesquisar por nome:</label>
+                <input type="text" id="search" name="search" required>
+                <button type="submit">Pesquisar</button>
+            </form>
+        </div>
+        <div class="recipes">
+            {% if recipes %}
+                {% for recipe in recipes %}
+                <div class="recipe">
+                    <h3>{{ recipe['Title'] }}</h3>
+                    <div class="details hidden">
+                        <p><strong>Ingredientes: </strong></p>
+                        <ul>
+                            {% for ingredient in recipe['Ingredients'] %}
+                                <li>{{ ingredient }}</li>
+                            {% endfor %}
+                        </ul>
+                        <p><strong>Instruções:</strong></p>
+                        <p>{{ recipe['Instructions'] }}</p>
+                    </div>
+                    <img src="{{ recipe['Image'] }}" alt="Imagem da receita">
+                </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+        <div class="image-placeholder">
+            <!-- Espaço reservado para imagem -->
+            <img src="../static/img/grandma.png" alt="Imagem de uma avó cozinhando">
+        </div>
+    </div>
+</section>
+
+<footer>
+    <!-- Rodapé -->
+    <div class="container">
+        <p>&copy; 2024 Grandma's Cookbook</p>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+/*ESTILIZAÇÃO FOOTER*/
+  footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;    
+    gap: 10px;
+    background-color: #EAF5FE;
+  }
+  .informacoes-footer{
+    width: 100%;
+    display: flex;
+    padding: 20px 0;    
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(116, 116, 116, 0.4);
+  }
+  .section-informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .listas-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 15px;
+  }
+  .titulos-footer{
+    display: flex;
+    justify-content: center;
+    color: #032D60;
+    width: 100%;
+    height: 15%;
+    font-weight: bold;
+    font-size: large;
+  }
+  .itens-lista-footer{
+    color: #032E61;
+    text-decoration: none;
+  }
+  .listas-footer li {
+    width: 100%;
+    color: #032E61;
+    font-size: medium;
+    font-weight: 500;
+    list-style-position: inside;
+  }
+  .redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 15px;
+    width: 100%;
+  }
+  .redes-sociais li{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: #032E61;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .itens-lista-redes{
+    display: flex;
+    align-items: center;
+    color: #032E61;
+    text-decoration: none;
+  }
+  .direitos-reservados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #032D60;
+    font-size: 11.5px;
+  }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {  
+}
+
+@media screen and (max-width: 768px) {
+  .titulos-footer{   
+    font-size: medium;
+  }
+  .listas-footer li {
+    font-size: small;    
+  }
+}  

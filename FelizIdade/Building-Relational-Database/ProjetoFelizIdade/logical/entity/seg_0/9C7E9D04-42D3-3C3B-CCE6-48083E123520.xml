@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C7E9D04-42D3-3C3B-CCE6-48083E123520" name="T_FLID_LOGIN_PACIENTE">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-28 00:19:31 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="1D63CF22-7E7F-A6DC-6F06-545FC7011FF9">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-28 00:27:54 UTC</createdTime>
+<generatorID>839B0C08-3684-0029-F93E-8B08988CFF46</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<referedAttribute>DD24835A-26C5-442F-D501-EF72ABF31715</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="3974C6B9-3333-E4C9-5542-D3B434D9F6E1">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-28 00:28:18 UTC</createdTime>
+<generatorID>67076808-4956-3481-9592-2A94455C04DF</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<referedAttribute>FB59DF3E-9E3A-10DB-30C1-CEEFC73EB732</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CFB99B92-A118-1DD5-8EA0-ADD6A99F62CF" name="T_LOIGIN_PACIENTE PK">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-28 00:23:30 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1D63CF22-7E7F-A6DC-6F06-545FC7011FF9</attributeRef>
+<attributeRef>3974C6B9-3333-E4C9-5542-D3B434D9F6E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

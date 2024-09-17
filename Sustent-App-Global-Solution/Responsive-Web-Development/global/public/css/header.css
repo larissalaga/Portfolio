@@ -1,0 +1,33 @@
+.header {
+  background-color: #38ADC6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header ul li {
+  margin: 0 15px;
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header ul li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.header ul li a:visited, .header ul li a:link {
+  color: white;
+  text-decoration: none;
+}

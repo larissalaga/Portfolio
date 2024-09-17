@@ -1,0 +1,225 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*ESTILIZAÇÃO HOME*/
+
+.main-home{
+  flex: 1;
+  display: flex;
+  flex-direction: column ;
+  gap: 80px;
+}
+.titulo-sessao{
+  text-align: center;
+  width: 100%;
+  color: #032D60;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.32px;
+}
+
+/*Seção 1*/
+
+.secao1{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px 50px 50px;
+  background-image: url('../assets/fundoBemVindo.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;  
+  background-size: 100%;  
+}
+.bem-vindo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 30px;
+  z-index: 2;
+}
+.apresentacao{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 20px 20px 20px 50px;
+  
+}
+.apresentacao h1{
+  text-align: center;
+  color: #032D60;
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 64px;
+  letter-spacing: -0.672px;
+}
+.apresentacao p{
+  color: #181818;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 15px;
+  max-width: 800px;
+}
+.imagem-bem-vindo{
+  width: 50%;
+  max-width: 408px;
+  height: auto;
+  background-color: re;
+}
+.botao-bem-vindo{
+  max-width: 370px;
+  min-height: 44px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: none;
+  background: #2E844A;
+}
+.link-botao{
+  color: white;
+  padding: 11px 26px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.botao-bem-vindo:hover{
+  background-color: #0B5CAB;
+}
+
+/*Seção 2*/
+
+.secao2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+}
+
+.section-cards{
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  padding: 0 1in ;
+}
+.card-produtos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1; 
+  gap: 10px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px -2px rgba(23, 23, 23, 0.08), 0px 8px 12px -2px rgba(23, 23, 23, 0.16);
+}
+.imagem-card{
+  width: 100%; 
+  height: auto;
+}
+.texto-card{
+  margin: 16px 20px;
+  color: #032D60;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.1px; 
+}
+.botao-card-produtos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: none;
+  background-color: white;
+}
+.link-card-produtos{
+  color: #032D60;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.botao-card-produtos:hover{
+  background-color: #E0E0E0;
+}
+.botao-pag-produtos{
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: none;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: #0176D3;
+}
+.link-pag-produtos{
+  display: flex;
+  color: #0176D3;
+  padding: 15px 34px;
+  align-items: center;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.link-pag-produtos:hover{
+  color: white;
+  background-color: #0176D3;
+}
+
+/*Seção 3*/
+.secao3{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1in ;
+}
+.botoes-depoimentos{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.section-carrossel{
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main-home{
+    gap: 40px;
+  }
+  .secao2{
+    gap: 30px;
+  }
+  .secao3{
+    padding: 0 0.4in ;
+  }
+}
+@media screen and (max-width: 767px) {
+.bem-vindo{
+  display: flex;
+  flex-direction: column;  
+}
+.apresentacao h1{
+  font-size: 48px;
+}
+.secao2{
+  padding: 0 0.1in;
+}
+.secao3{
+  padding: 0;
+}
+
+}

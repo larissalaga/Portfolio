@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AAA6D0E5-531E-7C93-69F6-AE29507BFECD" containerWithKeyObject="83978205-DBDC-9775-45C9-C039A5F05BD1" localFKIndex="7ABE729C-DF61-60D5-2CC6-E4465DBE32F9" name="T_FLID_ENDERECO_T-FLID-PACIENTE_FK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>CAAD8982-6579-2054-8A10-DE614946ECD9</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<referredTableLongName>T-FLID-PACIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E124F583-A742-6AA6-643A-8EFC4265E3C3</referredTableID>
+<keyObject>B527BDDE-1A59-9474-253D-169E4B5AFDD9</keyObject>
+<referredKeyID>B527BDDE-1A59-9474-253D-169E4B5AFDD9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_paciente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

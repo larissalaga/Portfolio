@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="323772A1-B335-DF1E-9903-901196FE5CED" containerWithKeyObject="2D370D24-566C-1054-90F3-8FDAFF2B691C" localFKIndex="CC65613B-21D1-0E31-B28D-634400D96EEA" name="T_FLID_LOGIN_PACIENTE_T-FLID-LOGIN_FK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>839B0C08-3684-0029-F93E-8B08988CFF46</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<referredTableLongName>T-FLID-LOGIN</referredTableLongName>
+<arc>45C49AB6-69A3-7D19-2B9D-EC4E99A304F7</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D82EBC97-9ED5-DB04-238E-23D76B6B9E99</referredTableID>
+<keyObject>31CBC0AA-C05F-30DF-4575-92E11E15A69A</keyObject>
+<referredKeyID>31CBC0AA-C05F-30DF-4575-92E11E15A69A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

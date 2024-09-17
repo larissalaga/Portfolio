@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\laris\OneDrive\Área de Trabalho\Fiap\Global Solution\GLOBAL Domain Driven Design\.metadata\.plugins\org.eclipse.jdt.core
+4137914658.index
+1619358558.index
+1865797976.index

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8D6646F-3ED5-7354-5468-72AE38AE8D2E" name="T_FLID_RESPOSTAS">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-28 00:45:02 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_respostas" id="58EF3488-F9B4-7041-2DEA-1F3014983320">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-28 00:45:22 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_respostas" id="4361D1CA-1F5E-800D-07D5-4C0A8EC6EE33">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-28 00:45:48 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_check_in" id="63955504-FC06-75A9-4256-084A18EFE648">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-28 00:47:56 UTC</createdTime>
+<generatorID>D2291CAD-B1E1-8521-D6E4-C96A96DAF44F</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<referedAttribute>E2BF5AA4-CF11-34B7-A1A7-5F6F71D17A90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pergunta" id="A322F476-8543-F714-8E1B-222945BDBE06">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-28 01:12:33 UTC</createdTime>
+<generatorID>241F6C29-80E2-B717-DE11-C4AFD1E95319</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<referedAttribute>E0A54659-A7DF-4A91-6960-569F978795A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_pontuacao_respostas" id="469CDF91-72E7-CA22-FCE0-8D16ABC33CAD">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-28 01:31:19 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A417C070-6E35-59E4-4A83-791D6FA2C322" name="T_FLID_RESPOSTAS PK">
+<createdBy>laris</createdBy>
+<createdTime>2023-11-28 00:45:47 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<engineerTo>
+<item key="1BD640D0-3DBF-C99E-DCF7-9F7FAD677258" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>58EF3488-F9B4-7041-2DEA-1F3014983320</attributeRef>
+<attributeRef>A322F476-8543-F714-8E1B-222945BDBE06</attributeRef>
+<attributeRef>63955504-FC06-75A9-4256-084A18EFE648</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

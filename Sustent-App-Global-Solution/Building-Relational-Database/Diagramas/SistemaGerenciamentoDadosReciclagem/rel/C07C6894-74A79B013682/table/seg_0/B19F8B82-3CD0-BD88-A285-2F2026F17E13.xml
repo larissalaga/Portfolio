@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B19F8B82-3CD0-BD88-A285-2F2026F17E13" name="T_SGDR_USUARIO">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>0463556D-EE54-A2AB-17C8-4F1587E8A5C3</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="CE7A33CB-071E-4A96-0D89-8CA0029AFB1A">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>731CB789-0C1A-AEE6-1E19-F6AEB40FC2AB</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_usuario" id="C4EA27A4-6D22-6A7D-DD16-6C3617B9BE3D">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>17C6C027-8BD7-8BDD-FE4F-98D8A4EE86A8</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="E3F19191-D77A-2CD0-6EF3-D58921822B52">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>B6D378BF-BC96-45CD-6879-79879DD057FD</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGDR_ENDERECO_id_endereco" id="CDD7F056-9EEF-8B91-3D6C-A385A5FFBF0D">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-05 16:20:10 UTC</createdTime>
+<generatorID>F2ABA125-D159-8F3F-6383-8847AD33AC15</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58B4168A-0C68-5263-367D-5D4C80074256" referredColumn="20E7A984-3820-8BE9-00EC-F7EBE7E6C08B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB92CA3A-F5A6-8751-8CCE-2FB599F67208" name="T_SGDR_USUARIO_PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>96DC78E7-DA9E-04A4-91F7-8548B00FD05C</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE7A33CB-071E-4A96-0D89-8CA0029AFB1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="887959DF-9B1E-B804-4BB9-98CE2B11C0D6" name="T_SGDR_USUARIO_T_SGDR_ENDERECO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-05 16:20:10 UTC</createdTime>
+<generatorID>14DBEA17-C12B-E11F-872D-3FE439724BAD</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDD7F056-9EEF-8B91-3D6C-A385A5FFBF0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F9349A9-5E03-5577-4C28-0E2586F1A7A4" name="T_SGDR_CATADOR">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>01DEE872-478A-D8FE-3BB9-8AE8AE474D03</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_catador" id="75581630-3FBF-DB56-FC10-3C120D9E7246">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>DD363C3A-22DD-2786-CCF4-C1D405F57B02</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_catador" id="E3CFE22B-8067-4B34-75DA-0E834563B95E">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>236906E0-E012-924D-D205-C4278CC0AE83</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="AEA0B6E3-7B71-6BBF-7F26-297F609BAED9">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>48EF160E-0629-09B2-891D-2A6A0D27629B</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_raio_coleta" id="C2488C50-2AD7-6DB2-BBFB-D58F2D01D611">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Distancia em Kilometros a partir do endereço fornecido, correspondente à rota de coleta]]></commentInRDBMS>
+<generatorID>65B3EA57-1D0E-B903-FA84-946664925144</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGDR_ENDERECO_id_endereco" id="AC559FDE-C2AA-2019-41DE-C5FB6519794D">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-05 16:29:55 UTC</createdTime>
+<generatorID>51FA98E8-37E7-0DC1-31B7-F6A335193370</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A498D92D-B0D9-E00E-F090-E1BB775E9F89" referredColumn="20E7A984-3820-8BE9-00EC-F7EBE7E6C08B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2D8290E-7225-EB73-510B-3F177E6269EB" name="T_SGDR_CATADOR_PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-04 13:16:01 UTC</createdTime>
+<generatorID>8014E635-93DB-1CE3-4DAD-5A601E22DAFA</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75581630-3FBF-DB56-FC10-3C120D9E7246"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1641A179-4AD9-698F-31BB-228DA4AD9820" name="T_SGDR_CATADOR_T_SGDR_ENDERECO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-05 16:29:55 UTC</createdTime>
+<generatorID>2B5BDA54-45D9-063F-CAAD-685FF11CA438</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC559FDE-C2AA-2019-41DE-C5FB6519794D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

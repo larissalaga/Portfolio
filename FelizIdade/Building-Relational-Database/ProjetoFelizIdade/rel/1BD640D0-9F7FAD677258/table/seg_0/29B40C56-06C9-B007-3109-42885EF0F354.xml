@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29B40C56-06C9-B007-3109-42885EF0F354" name="T_FLID_RESPOSTAS">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>E8D6646F-3ED5-7354-5468-72AE38AE8D2E</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_respostas" id="7C604AD2-9E0D-950A-6CE2-8D8C211BCB74">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>58EF3488-F9B4-7041-2DEA-1F3014983320</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_respostas" id="6373022B-463D-B281-6574-9A735FA8FA77">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>4361D1CA-1F5E-800D-07D5-4C0A8EC6EE33</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FLID_CHECK_IN_id_check_in" id="4BC05AB2-CD47-D38F-D9F8-1E904DCC74B3">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>63955504-FC06-75A9-4256-084A18EFE648</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D937AF0-41A5-F1E9-401D-837747A5B067" referredColumn="18B1C8BD-7880-4AFA-2026-D8D261F92948"/>
+</associations>
+</Column>
+<Column name="T_FLID_PERGUNTAS_id_pergunta" id="2A783669-D7DE-725D-6F5A-F9D487CC590C">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>A322F476-8543-F714-8E1B-222945BDBE06</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71092032-9898-4078-B01B-F1F648C020AD" referredColumn="6B9A0318-F22C-378E-16D4-3062810A8AEB"/>
+</associations>
+</Column>
+<Column name="nr_pontuacao_respostas" id="53454BAF-50F0-930A-45DA-9BFFABDA6562">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>469CDF91-72E7-CA22-FCE0-8D16ABC33CAD</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D2A0B97-252F-6299-8360-EB70EDA6FA52" name="T_FLID_RESPOSTAS_PK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>A417C070-6E35-59E4-4A83-791D6FA2C322</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C604AD2-9E0D-950A-6CE2-8D8C211BCB74"/>
+<colUsage columnID="2A783669-D7DE-725D-6F5A-F9D487CC590C"/>
+<colUsage columnID="4BC05AB2-CD47-D38F-D9F8-1E904DCC74B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="355D4232-8D28-C965-D8A0-D0991A5BB772" name="T_FLID_RESPOSTAS_T_FLID_PERGUNTAS_FK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>241F6C29-80E2-B717-DE11-C4AFD1E95319</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A783669-D7DE-725D-6F5A-F9D487CC590C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC98CEA4-D367-C453-BE65-36E1C6BEBF35" name="T_FLID_RESPOSTAS_T_FLID_CHECK_IN_FK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>D2291CAD-B1E1-8521-D6E4-C96A96DAF44F</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BC05AB2-CD47-D38F-D9F8-1E904DCC74B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

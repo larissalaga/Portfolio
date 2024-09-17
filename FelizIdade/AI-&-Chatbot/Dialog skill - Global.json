@@ -1,0 +1,1202 @@
+{
+  "intents": [
+    {
+      "intent": "Acompanhamento",
+      "examples": [
+        {
+          "text": "Acomphamento"
+        },
+        {
+          "text": "Check-in"
+        },
+        {
+          "text": "Perguntas de acompanhamento"
+        },
+        {
+          "text": "Questionário"
+        },
+        {
+          "text": "Realizar o acompanhamento"
+        },
+        {
+          "text": "Responder perguntas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Agradecimento",
+      "examples": [
+        {
+          "text": "Adeus"
+        },
+        {
+          "text": "Até logo"
+        },
+        {
+          "text": "Até mais"
+        },
+        {
+          "text": "Encerrar"
+        },
+        {
+          "text": "Finalizar"
+        },
+        {
+          "text": "Tchau"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Cancelar_consulta",
+      "examples": [
+        {
+          "text": "Cancelar consulta"
+        },
+        {
+          "text": "Desistir da consulta"
+        },
+        {
+          "text": "Excluir consulta"
+        },
+        {
+          "text": "Não poderei comparecer a consulta"
+        },
+        {
+          "text": "Não vou mais conseguir fazer a consulta"
+        },
+        {
+          "text": "Remover consulta"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Cancelar_exame",
+      "examples": [
+        {
+          "text": "Cancelar o exame"
+        },
+        {
+          "text": "Desistir do exame"
+        },
+        {
+          "text": "Excluir agendamento do exame"
+        },
+        {
+          "text": "Excluir o exame"
+        },
+        {
+          "text": "Não conseguirei realizar o exame"
+        },
+        {
+          "text": "Não fazer mais o exame"
+        },
+        {
+          "text": "Não poderei mais fazer o exame"
+        },
+        {
+          "text": "Remover o agendamento do exame"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Marcar_consulta",
+      "examples": [
+        {
+          "text": "Agendamento de consulta"
+        },
+        {
+          "text": "Agendar consulta"
+        },
+        {
+          "text": "Gostaria de realizar uma consulta"
+        },
+        {
+          "text": "Marcar consulta"
+        },
+        {
+          "text": "Quero marcar uma consulta"
+        },
+        {
+          "text": "Realizar consulta"
+        },
+        {
+          "text": "Reservar consulta"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Marcar_exame",
+      "examples": [
+        {
+          "text": "Agendamento exame"
+        },
+        {
+          "text": "Agendar exame"
+        },
+        {
+          "text": "Fazer exame"
+        },
+        {
+          "text": "Marcar exame"
+        },
+        {
+          "text": "Realizar exame"
+        },
+        {
+          "text": "Reservar exame"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Pontos",
+      "examples": [
+        {
+          "text": "Gastar meus pontos"
+        },
+        {
+          "text": "Loja"
+        },
+        {
+          "text": "Loja de pontos"
+        },
+        {
+          "text": "Pontos"
+        },
+        {
+          "text": "Realizar uma compra"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Saudação",
+      "examples": [
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Preciso de ajuda"
+        },
+        {
+          "text": "/start"
+        },
+        {
+          "text": "Tudo bem?"
+        },
+        {
+          "text": "Tudo bom?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "([-A-Za-z0-9!#$%&'*+/=?^_`{|}~]+(?:\\.[-A-Za-z0-9!#$%&'*+/=?^_`{|}~]+)*@(?:[A-Za-z0-9](?:[-A-Za-z0-9]*[A-Za-z0-9])?\\.)+[A-Za-z0-9](?:[-A-Za-z0-9]*[A-Za-z0-9])?)"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "especialidade",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "clinico",
+          "synonyms": [
+            "clinico",
+            "clinico geral",
+            "geral"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ortopedia",
+          "synonyms": [
+            "orto",
+            "ortopedi",
+            "ortopedia",
+            "ortopedista"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "psicologia",
+          "synonyms": [
+            "psi",
+            "psic",
+            "psicologa",
+            "psicologia",
+            "psicologo",
+            "terapeuta",
+            "terapia"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim-nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nao",
+          "synonyms": [
+            "discordo",
+            "n",
+            "na",
+            "nao",
+            "nem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "concordo",
+            "ok",
+            "s",
+            "si",
+            "sim",
+            "ss",
+            "tudo bem",
+            "tudo bom",
+            "tudo ok"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "tel",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "celular",
+          "patterns": [
+            "(\\d{11})",
+            "(\\d{2) (\\d{9})"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "fixo",
+          "patterns": [
+            "(\\d{10})",
+            "(\\d{2}) (\\d{8})"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "TUS",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Tus",
+          "patterns": [
+            "(\\d{8})",
+            "(\\d{4}) (\\d{4})"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, em que posso te ajudar hoje?\n- Acompanhamento diário;\n- Marcar consulta;\n- Marcar exame;\n- Cancelar consulta;\n- Cancelar exame;\n- Eventos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_9_1700933951917",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1700938548705",
+      "context": {
+        "email": "@email.literal"
+      },
+      "conditions": "@email",
+      "event_name": "input",
+      "dialog_node": "handler_10_1700938548706"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1700938572419",
+      "context": {
+        "tel": "@tel.literal"
+      },
+      "conditions": "@tel",
+      "event_name": "input",
+      "dialog_node": "handler_10_1700938572419"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1700938655785",
+      "context": {
+        "especialidade": "@especialidade.literal"
+      },
+      "conditions": "@especialidade",
+      "event_name": "input",
+      "dialog_node": "handler_10_1700938655787"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De um número de 0 a 5, como você está se sentindo hoje?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1700936046550",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1700936046558",
+      "previous_sibling": "handler_8_1700936046558"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1700938587740",
+      "context": {
+        "date": "@sys-date.literal"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_2_1700938587741"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual dia ficaria bom para você?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1700938587740",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1700938587741",
+      "previous_sibling": "handler_2_1700938587741"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1700940141121",
+      "context": {
+        "time": "@sys-time.literal"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_3_1700940141121"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me informe o código TUS de 8 dígitos do exame que gostaria de cancelar."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1700940422275",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1700940422286",
+      "previous_sibling": "handler_9_1700940422286"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1700939961111",
+      "context": {
+        "TUS": "@TUS.literal"
+      },
+      "conditions": "@TUS",
+      "event_name": "input",
+      "dialog_node": "handler_4_1700939961117"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me confirme o seu e-mail."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1700939989321",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1700939989321",
+      "previous_sibling": "handler_9_1700939989321"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em que dia gostaria de realizar o exame?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1700940065157",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1700940065158",
+      "previous_sibling": "handler_6_1700940065158"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1700936093746",
+      "context": {
+        "number2": "@sys-number.literal"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_5_1700936093746"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1700936314493",
+      "context": {
+        "number3": "@sys-number.literal"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_5_1700936314494"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vamos cancelar a consulta de qual especialidade? Clinico, Psicologia ou Ortopedia?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1700939791473",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1700939791481",
+      "previous_sibling": "handler_7_1700939791481"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primeiro me confirme seu e-mail."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1700938548705",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1700938548706",
+      "previous_sibling": "handler_10_1700938548706"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu telefone para contato?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1700938572419",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1700938572419",
+      "previous_sibling": "handler_10_1700938572419"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1700940065157",
+      "context": {
+        "date": "@sys-date.literal"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_6_1700940065158"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual horário?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1700940141121",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1700940141121",
+      "previous_sibling": "handler_3_1700940141121"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual horário?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1700938608029",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1700938608030",
+      "previous_sibling": "handler_9_1700938608030"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1700939791473",
+      "context": {
+        "especialidade": "@especialidade.literal"
+      },
+      "conditions": "@especialidade",
+      "event_name": "input",
+      "dialog_node": "handler_7_1700939791481"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1700935921073",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1700935921081",
+      "previous_sibling": "handler_9_1700935921081"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1700936046550",
+      "context": {
+        "number": "@sys-number.literal"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_8_1700936046558"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "E como você classifica sua saúde física?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1700936314493",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1700936314494",
+      "previous_sibling": "handler_5_1700936314494"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você gostaria de passar com Clinico Geral, Ortopedista ou Psicologia?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1700938655785",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1700938655787",
+      "previous_sibling": "handler_10_1700938655787"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1700940046688",
+      "context": {
+        "tel": "@tel.literal"
+      },
+      "conditions": "@tel",
+      "event_name": "input",
+      "dialog_node": "handler_8_1700940046689"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1700935921073",
+      "context": {
+        "number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_9_1700935921081"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De um número de 0 a 5,  como você classifica sua saúde mental hoje?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1700936093746",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1700936093747",
+      "previous_sibling": "handler_5_1700936093746"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1700938608029",
+      "context": {
+        "time": "@sys-time.literal"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_9_1700938608030"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primeiro me informe o código TUS de 8 dígitos do exame."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1700939961111",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1700939961117",
+      "previous_sibling": "handler_4_1700939961117"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1700939989321",
+      "context": {
+        "email": "@email.literal"
+      },
+      "conditions": "@email",
+      "event_name": "input",
+      "dialog_node": "handler_9_1700939989321"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual seria o telefone de contato?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1700940046688",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1700940046689",
+      "previous_sibling": "handler_8_1700940046689"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1700940422275",
+      "context": {
+        "TUS": "@TUS.literal"
+      },
+      "conditions": "@TUS",
+      "event_name": "input",
+      "dialog_node": "handler_9_1700940422286"
+    },
+    {
+      "type": "standard",
+      "title": "Saudação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, em que posso te ajudar hoje?\n- Acompanhamento diário;\n- Marcar consulta;\n- Marcar exame;\n- Cancelar consulta;\n- Cancelar exame;\n- Eventos."
+              },
+              {
+                "text": "Olá, como você está? Me informe como posso te ajudar:\n- Acompanhamento diário;\n- Marcar consulta;\n- Marcar exame;\n- Cancelar consulta;\n- Cancelar exame;\n- Eventos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Saudação",
+      "dialog_node": "node_10_1700935742194",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Inicio acompanhamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vamos realizar seu acompanhamento!"
+              },
+              {
+                "text": "Beleza, vamos para o acompanhamento diário!"
+              },
+              {
+                "text": "Vamos fazer o seu check-in de saúde!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1700935970209"
+      },
+      "conditions": "#Acompanhamento",
+      "dialog_node": "node_2_1700935871773",
+      "previous_sibling": "node_10_1700935742194"
+    },
+    {
+      "type": "standard",
+      "title": "Pontos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vi que você tem pontos para gastar, mas a única forma de gastá-los é pela loja do nosso app na aba \"Loja\".\nLá tem várias opções como aulas de Pilates, desconto em academias, ebooks de receitas e muito mais!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Pontos",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1700940588292",
+      "previous_sibling": "node_5_1700939778863"
+    },
+    {
+      "type": "frame",
+      "title": "Marcar exame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pronto, já agendei o exame $TUS para $date, $time.\n\nJá enviei uma confirmação para o e-mail $email. Caso precise, vamos entrar em contato pelo e-mail ou pelo número $tel."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Marcar_exame",
+      "dialog_node": "node_3_1700939898427",
+      "previous_sibling": "node_2_1700935871773"
+    },
+    {
+      "type": "frame",
+      "title": "Pedir notas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito obrigada pelas respostas, então seu check-in diário de hoje ficou:\nSaúde geral = $number;\nSaúde mental = $number2;\nSaúde física = $number3;\n\nComo você concluiu o acompanhamento diário, você recebeu 50 pontos!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1700935871773",
+      "dialog_node": "node_5_1700935970209"
+    },
+    {
+      "type": "frame",
+      "title": "Cancelar consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pronto, já cancelei sua consulta da especialidade $especialidade."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Cancelar_consulta",
+      "dialog_node": "node_5_1700939778863",
+      "previous_sibling": "node_9_1700937414648"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito obrigada pela preferência!"
+              },
+              {
+                "text": "Muito obrigada, até mais!"
+              },
+              {
+                "text": "Qualquer coisa é só me chamar!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Agradecimento",
+      "dialog_node": "node_9_1700933951917",
+      "previous_sibling": "node_2_1700940588292"
+    },
+    {
+      "type": "frame",
+      "title": "Marcar consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ótimo! Já marquei sua consulta com a especialidade $especialidade, para $date, $time.\n\nVou enviar uma confirmação no e-mail $email. Caso precisemos, iremos entrar em contato pelo e-mail ou pelo número $tel."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Marcar_consulta",
+      "dialog_node": "node_9_1700937414648",
+      "previous_sibling": "node_9_1700940406677"
+    },
+    {
+      "type": "frame",
+      "title": "Cancelar exame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Prontinho, já cancelei o exame $TUS que estava agendado!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#Cancelar_exame",
+      "dialog_node": "node_9_1700940406677",
+      "previous_sibling": "node_3_1700939898427"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1700935970209",
+      "variable": "$number3",
+      "dialog_node": "slot_10_1700936314493",
+      "previous_sibling": "slot_5_1700936093746"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1700939898427",
+      "variable": "$email",
+      "dialog_node": "slot_10_1700939989321",
+      "previous_sibling": "slot_5_1700939961111"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1700935871773",
+      "variable": "$number",
+      "dialog_node": "slot_1_1700935921073",
+      "previous_sibling": "node_5_1700935970209"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1700937414648",
+      "variable": "$date",
+      "dialog_node": "slot_1_1700938587740",
+      "previous_sibling": "slot_9_1700938655785"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1700939778863",
+      "variable": "$especialidade",
+      "dialog_node": "slot_3_1700939791473"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1700935970209",
+      "variable": "$number2",
+      "dialog_node": "slot_5_1700936093746",
+      "previous_sibling": "slot_8_1700936046550"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1700937414648",
+      "variable": "$time",
+      "dialog_node": "slot_5_1700938608029",
+      "previous_sibling": "slot_1_1700938587740"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1700939898427",
+      "variable": "$TUS",
+      "dialog_node": "slot_5_1700939961111"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1700939898427",
+      "variable": "$time",
+      "dialog_node": "slot_5_1700940141121",
+      "previous_sibling": "slot_9_1700940065157"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1700940406677",
+      "variable": "$TUS",
+      "dialog_node": "slot_5_1700940422275"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1700939898427",
+      "variable": "$tel",
+      "dialog_node": "slot_6_1700940046688",
+      "previous_sibling": "slot_10_1700939989321"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1700935970209",
+      "variable": "$number",
+      "dialog_node": "slot_8_1700936046550"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1700937414648",
+      "variable": "$email",
+      "dialog_node": "slot_8_1700938548705"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1700937414648",
+      "variable": "$tel",
+      "dialog_node": "slot_8_1700938572419",
+      "previous_sibling": "slot_8_1700938548705"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1700937414648",
+      "variable": "$especialidade",
+      "dialog_node": "slot_9_1700938655785",
+      "previous_sibling": "slot_8_1700938572419"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1700939898427",
+      "variable": "$date",
+      "dialog_node": "slot_9_1700940065157",
+      "previous_sibling": "slot_6_1700940046688"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "created for assistant 2f772c5f-09ca-41ce-9554-9771656700e3",
+  "name": "FelizIdade-dialog"
+}

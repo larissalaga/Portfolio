@@ -1,0 +1,122 @@
+/*Carrossel*/
+.control-dots {  
+  top: 0px !important;
+  bottom: auto !important;
+  margin: 0px !important;
+}
+
+.dot {  
+  height: 60px !important;
+  width: 60px !important;    
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;  
+  background-size: 100% !important; 
+  box-shadow: none !important
+}
+
+.dot[value="0"] {  
+  background-image: url('/assets/depoimentoTigre.svg')  !important;  
+}
+
+
+.dot[value="1"] {  
+  background-image: url('/assets/depoimentoVipal.svg')  !important;  
+}
+
+.dot[value="2"] {  
+  background-image: url('/assets/depoimentoSamup.svg')  !important;  
+}
+
+.dot[value="3"] {  
+  background-image: url('/assets/depoimentoGympass.svg')  !important;  
+}
+
+
+.carrossel{
+  margin-bottom: 50px;  
+}
+.slider{
+  display: flex;
+  align-items: center;
+}
+
+.carousel.carousel-slider {
+  padding-top: 70px;
+}
+
+.card-carrossel{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 15px 15px 35px 15px;
+  border-radius: 16px;
+}
+.depoimento-carrossel{
+  color: c;
+  font-size: large;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+.paragrafo-carrossel{
+  color: #032D60;
+  font-size: x-large;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+.slide{
+  height: 600px;
+  filter: blur(3px);
+  border-radius: 16px;
+  background-color: #E0F1F9;
+}
+
+.slide {
+  margin: 0px !important;
+}
+
+.slide.selected{  
+  filter: none;
+  min-height: 690px;
+  background-color: #CAEBE9;  
+  border: 10px solid white;
+  border-radius: 26px;
+}
+.control-arrow{
+  top: 115px !important;
+  height: 600px;
+  width: 27.5%;  
+  border-radius: 16px;
+  
+  background-color: #caebe9c9 !important;  
+}
+.control-prev.control-arrow:before{
+  border-right: 38px solid #032D60 !important;
+  border-top: 38px solid transparent !important;
+  border-bottom: 38px solid transparent !important;
+}
+.control-next.control-arrow:before{
+  border-left: 38px solid #032D60 !important;
+  border-top: 38px solid transparent !important;
+  border-bottom: 38px solid transparent !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {  
+  .depoimento-carrossel{
+    font-size: medium;    
+  }
+  .paragrafo-carrossel{
+    font-size: large;    
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .depoimento-carrossel{
+    font-size: small;    
+  }
+  .paragrafo-carrossel{
+    font-size: medium;    
+  }
+
+}

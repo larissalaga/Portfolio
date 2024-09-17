@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2D0133F-BD23-4D60-E0DF-0567F5E028A6" name="T_FLID_PERGUNTAS">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>BF70C57B-7981-50E4-CD82-ECF8CE74ACB0</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pergunta" id="6B9A0318-F22C-378E-16D4-3062810A8AEB">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>E0A54659-A7DF-4A91-6960-569F978795A5</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_questionario" id="B04B1075-AAF3-3E9C-1621-60E96596B379">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>68BC4C66-40B2-EE03-5AAD-369A1D30F787</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D753AB91-7253-9B2C-F3EF-EBA61C3CA6EF" name="T_FLID_PERGUNTAS_PK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>5D04D9C3-84D1-B20F-3376-88C08D5356B3</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B9A0318-F22C-378E-16D4-3062810A8AEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

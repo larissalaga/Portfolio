@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C056E660-6C24-C3BC-F3BC-9D0D21E91F0E" name="T-FLID-RELATORIO">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>B57EA06D-FB6A-FB8C-2E97-EFC9D375554B</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_relatorio" id="02DBD1D4-1B20-900A-17F4-731D3D9FA172">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>916D62F2-5BE2-9162-5E7B-F5D44C748DD0</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T-FLID-PACIENTE_id_paciente" id="A9EEEED8-AC5A-8B12-ADA9-9A5CF7F7B580">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>180DB513-5F35-6062-6C1E-BCC4CA8A99A5</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C357F00-7F4A-6627-F9AC-91C46CA3B8CA" referredColumn="A176E34D-90B1-F1B9-F840-F8E215C2901D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B146EF72-B90D-3CB4-4278-85073BB3A489" name="T-FLID-RELATORIO_PK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>C50ADEAF-9E7C-21DC-C326-911F795EBA64</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02DBD1D4-1B20-900A-17F4-731D3D9FA172"/>
+<colUsage columnID="A9EEEED8-AC5A-8B12-ADA9-9A5CF7F7B580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83F0A6E3-5800-523B-5BEC-3A1D81619B0D" name="T-FLID-RELATORIO_T-FLID-PACIENTE_FK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>2C58373B-2087-5837-A86C-85308DF9615C</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9EEEED8-AC5A-8B12-ADA9-9A5CF7F7B580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

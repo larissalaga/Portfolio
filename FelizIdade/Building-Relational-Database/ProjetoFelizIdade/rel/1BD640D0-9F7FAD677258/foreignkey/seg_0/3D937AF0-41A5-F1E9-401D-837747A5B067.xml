@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3D937AF0-41A5-F1E9-401D-837747A5B067" containerWithKeyObject="29B40C56-06C9-B007-3109-42885EF0F354" localFKIndex="BC98CEA4-D367-C453-BE65-36E1C6BEBF35" name="T_FLID_RESPOSTAS_T_FLID_CHECK_IN_FK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>D2291CAD-B1E1-8521-D6E4-C96A96DAF44F</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<referredTableLongName>T_FLID_CHECK_IN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3654A4E7-4527-3872-3C53-0FC5BCE6E113</referredTableID>
+<keyObject>7F74B65C-E57B-C9FB-0E4B-4FDEDA6DD421</keyObject>
+<referredKeyID>7F74B65C-E57B-C9FB-0E4B-4FDEDA6DD421</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_check_in</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

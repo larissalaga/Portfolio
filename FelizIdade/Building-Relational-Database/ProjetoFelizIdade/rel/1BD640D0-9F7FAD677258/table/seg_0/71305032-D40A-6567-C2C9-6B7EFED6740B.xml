@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71305032-D40A-6567-C2C9-6B7EFED6740B" name="Relation_5">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_FLID_CHECK_IN_id_check_in" id="E8A58A6F-8121-8990-998E-0A7D6868E5A3">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="164D8A50-7988-5E75-CE37-1C6AE919530B" referredColumn="18B1C8BD-7880-4AFA-2026-D8D261F92948"/>
+</associations>
+</Column>
+<Column name="T-FLID-RELATORIO_id_relatorio" id="F0CB860C-CED8-7711-E00E-1C18BB152D9C">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="314083FA-65D6-33A1-C48E-BB48B2996AEB" referredColumn="02DBD1D4-1B20-900A-17F4-731D3D9FA172"/>
+</associations>
+</Column>
+<Column name="T-FLID-RELATORIO_id_paciente" id="AB983054-3CA4-1C0E-5798-1EA057728BEB">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="314083FA-65D6-33A1-C48E-BB48B2996AEB" referredColumn="A9EEEED8-AC5A-8B12-ADA9-9A5CF7F7B580"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A327DB0-4335-A34F-1AD4-5016134FEA76" name="Relation_5_PK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8A58A6F-8121-8990-998E-0A7D6868E5A3"/>
+<colUsage columnID="F0CB860C-CED8-7711-E00E-1C18BB152D9C"/>
+<colUsage columnID="AB983054-3CA4-1C0E-5798-1EA057728BEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E5966ED-B5B7-B065-C03A-9CD837E52E3E" name="Relation_5_T_FLID_CHECK_IN_FK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>B3726EEB-46DC-B89D-91B4-3A3562E4B439</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8A58A6F-8121-8990-998E-0A7D6868E5A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B526B4AC-CA0D-8741-82C3-8AC8C2674713" name="Relation_5_T-FLID-RELATORIO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>B3726EEB-46DC-B89D-91B4-3A3562E4B439</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0CB860C-CED8-7711-E00E-1C18BB152D9C"/>
+<colUsage columnID="AB983054-3CA4-1C0E-5798-1EA057728BEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

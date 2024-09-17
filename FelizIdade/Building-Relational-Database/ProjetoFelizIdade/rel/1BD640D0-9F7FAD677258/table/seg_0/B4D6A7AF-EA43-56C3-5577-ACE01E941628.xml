@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4D6A7AF-EA43-56C3-5577-ACE01E941628" name="T_FLID_CONTATO">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>37F3D0DA-9DFC-AA61-C8AC-134209DB0F68</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contato" id="5C7100DA-BDA9-D5E4-2263-5206D5C1BFCF">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>774DCB5B-8620-F69F-E110-DF59F0CA7620</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="6DFE07AB-20B1-F721-6A60-40529BC8B620">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>1F83A1CF-D7EA-59A7-6475-E4413CF0F8D3</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="C077EF4F-18FE-D992-ECE1-74DD2177313C">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>68218B55-2552-6953-41CF-E5254FB0190D</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FLID_MEDICO_id_medico" id="45CAE519-89A8-B8E8-A445-9383A5DD1153">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>098D9138-1C5C-F10D-54F7-F8E7552374E7</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE4A16CF-FADE-FAF1-3B80-848A6AE15D0E" referredColumn="002ADF3E-12A8-1A3E-4F0B-FAAA4FDADE89"/>
+</associations>
+</Column>
+<Column name="T-FLID-PACIENTE_id_paciente" id="0C818AA6-1FC0-F551-D792-1DD088884AB3">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>F2F74BD2-7FBA-04FF-C09E-EAAB82AF8FAA</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F167D2E4-21BD-812B-7BB3-85E48C1828C4" referredColumn="A176E34D-90B1-F1B9-F840-F8E215C2901D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8EC2553-D8E0-A787-C8C4-6CFF879D77C8" name="T_FLID_CONTATO_PK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>19573F57-AECE-8929-BACB-5B92F0B36E62</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C7100DA-BDA9-D5E4-2263-5206D5C1BFCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B53D2147-531B-539D-F44B-82C77CBD817D" name="T_FLID_CONTATO__IDX">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>37501F45-DF57-C836-50BC-BC017769F273</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="45CAE519-89A8-B8E8-A445-9383A5DD1153"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4575D25A-ED4D-D218-3EEA-F88AA25379EF" name="T_FLID_CONTATO__IDXv1">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9112F25A-91BD-60E2-CDE4-BF3D0208B8EB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0C818AA6-1FC0-F551-D792-1DD088884AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8411E2E-9DBA-57E8-BD79-345527287914" name="T_FLID_CONTATO_T_FLID_MEDICO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>37501F45-DF57-C836-50BC-BC017769F273</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45CAE519-89A8-B8E8-A445-9383A5DD1153"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C12743BB-A0B6-7722-5AEB-CDD6B2C2E51F" name="T_FLID_CONTATO_T-FLID-PACIENTE_FK">
+<createdBy>laris</createdBy>
+<createdTime>2023-12-01 15:42:09 UTC</createdTime>
+<generatorID>9112F25A-91BD-60E2-CDE4-BF3D0208B8EB</generatorID>
+<ownerDesignName>ProjetoFelizIdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C818AA6-1FC0-F551-D792-1DD088884AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,81 @@
+.reciclagem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastros {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.pf, .pj {
+    min-height: 400px;
+    margin-bottom: 20px;
+    border: 2px solid #38ADC6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+label span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #38ADC6;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #004777;
+}
+
+.success-message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #38ADC6;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
